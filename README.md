@@ -30,6 +30,7 @@ Raw images and preprocessed caches are not stored here. The scripts in `code/` d
 | `results/reader/` | Radiologist agreement analysis |
 | `results/cohort/` | Participant characteristics table |
 | `results/figures/` | Figures |
+| `docs/` | Conference abstract as submitted (PDF) |
 
 ## Reproducing the results
 
