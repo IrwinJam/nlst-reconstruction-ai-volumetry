@@ -1,0 +1,79 @@
+{
+  "threshold": 0.6,
+  "criterion": "mean best validation Dice of conventional models (3 seeds) >= 0.60",
+  "conv_mean": 0.5829,
+  "conv_sd": 0.034,
+  "verdict": "FAIL",
+  "runs": {
+    "conv_s0": {
+      "best": 0.6221,
+      "last": 0.5909,
+      "n_evals": 40
+    },
+    "maml_s0": {
+      "best": 0.6696,
+      "last": 0.6325,
+      "n_evals": 16
+    },
+    "conv_s1": {
+      "best": 0.5651,
+      "last": 0.5455,
+      "n_evals": 40
+    },
+    "maml_s1": {
+      "best": 0.5938,
+      "last": 0.5796,
+      "n_evals": 16
+    },
+    "conv_s2": {
+      "best": 0.5616,
+      "last": 0.5432,
+      "n_evals": 40
+    },
+    "maml_s2": {
+      "best": 0.5898,
+      "last": 0.5247,
+      "n_evals": 16
+    },
+    "lovo_GE_MEDICAL_SYSTEMS_conv": {
+      "best": 0.5707,
+      "last": 0.5624,
+      "n_evals": 40
+    },
+    "lovo_GE_MEDICAL_SYSTEMS_maml": {
+      "best": 0.5773,
+      "last": 0.5479,
+      "n_evals": 16
+    },
+    "lovo_SIEMENS_conv": {
+      "best": 0.5284,
+      "last": 0.5141,
+      "n_evals": 40
+    },
+    "lovo_SIEMENS_maml": {
+      "best": 0.6643,
+      "last": 0.5756,
+      "n_evals": 16
+    },
+    "lovo_TOSHIBA_conv": {
+      "best": 0.6286,
+      "last": 0.5971,
+      "n_evals": 40
+    },
+    "lovo_TOSHIBA_maml": {
+      "best": 0.6416,
+      "last": 0.613,
+      "n_evals": 16
+    },
+    "lovo_Philips_conv": {
+      "best": 0.6313,
+      "last": 0.6148,
+      "n_evals": 40
+    },
+    "lovo_Philips_maml": {
+      "best": 0.6631,
+      "last": 0.6357,
+      "n_evals": 16
+    }
+  }
+}

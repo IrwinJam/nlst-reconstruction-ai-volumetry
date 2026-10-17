@@ -1,0 +1,602 @@
+patient_id,vendor,kernel,thickness_mm,position_matched_frames,max_frame_z_offset_mm,n_ct_slices,n_mask_frames,n_unmatched,n_tumor_slices,tumor_voxels,volume_ml,mean_hu_inside,mean_hu_ring,contrast_hu,in_prespecified_range,z_extent_mm,lesion_labels,status,reason
+100012,SIEMENS,B30f,2.0,0.0,0.0,157.0,13.0,0.0,13.0,9765.0,5.841,-463.1,-756.2,293.2,False,26.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+100147,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,116.0,8.0,0.0,8.0,4618.0,4.796,-579.2,-804.6,225.4,False,20.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+100158,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,146.0,7.0,0.0,7.0,1094.0,1.278,-264.7,-789.3,524.6,True,14.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+100242,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,123.0,3.0,0.0,3.0,500.0,0.401,-171.8,-494.4,322.6,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+100280,SIEMENS,B30f,2.0,0.0,0.0,155.0,8.0,0.0,8.0,1996.0,1.211,-303.8,-760.8,457.0,False,16.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+100518,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,154.0,17.0,0.0,17.0,14146.0,18.469,-7.0,-389.3,382.3,True,34.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+100570,SIEMENS,B50f,2.0,0.0,0.0,163.0,10.0,0.0,8.0,5960.0,4.656,4.5,-540.6,545.0,True,16.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+100658,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,111.0,9.0,0.0,9.0,1046.0,1.366,-215.6,-684.8,469.2,True,45.0,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Nodule - Lower lobe of right lung | Lesion 3 - Nodule - Lower lobe of right lung,PASS,
+100681,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,169.0,5.0,0.0,5.0,628.0,0.692,-332.9,-753.1,420.2,False,10.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+100697,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,146.0,6.0,0.0,6.0,1417.0,1.655,-95.4,-404.9,309.6,True,12.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+100703,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,282.0,7.0,0.0,7.0,337.0,0.433,-169.1,-557.6,388.4,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+100913,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,120.0,5.0,0.0,5.0,560.0,0.692,-157.7,-647.4,489.6,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+100954,SIEMENS,B30f,2.0,0.0,0.0,151.0,6.0,0.0,6.0,2630.0,2.185,-159.3,-639.1,479.7,True,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+101066,SIEMENS,B50f,2.0,0.0,0.0,145.0,5.0,0.0,5.0,396.0,0.23,-113.7,-536.8,423.1,True,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+101068,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,157.0,5.0,0.0,5.0,405.0,0.446,-334.1,-767.5,433.4,False,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+101192,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,140.0,7.0,0.0,7.0,2560.0,1.914,-151.3,-601.2,449.9,True,17.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+101287,TOSHIBA,FC51,2.0,0.0,0.0,143.0,11.0,0.0,10.0,3085.0,1.799,-52.2,-554.9,502.7,True,20.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+101387,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,116.0,12.0,0.0,12.0,24085.0,23.521,-51.9,-368.3,316.3,True,30.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+101397,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,176.0,13.0,0.0,13.0,2651.0,2.589,-191.0,-609.4,418.4,True,26.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+101692,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,127.0,4.0,0.0,4.0,925.0,0.903,-211.0,-607.2,396.2,True,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+101834,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,113.0,10.0,0.0,7.0,8839.0,8.632,-169.8,-636.4,466.6,True,17.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+102136,SIEMENS,B30f,2.0,0.0,0.0,175.0,7.0,0.0,7.0,1819.0,1.71,-65.4,-586.8,521.4,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+102161,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,6.0,0.0,6.0,1663.0,2.067,-142.3,-629.1,486.8,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+102266,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,132.0,10.0,0.0,10.0,8728.0,12.019,-12.5,-363.6,351.1,True,25.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+102267,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,149.0,3.0,0.0,3.0,191.0,0.164,-333.4,-660.7,327.3,False,6.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102388,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,151.0,8.0,0.0,8.0,1525.0,2.078,-452.4,-640.9,188.5,False,88.5,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102488,Philips,D,3.2,0.0,0.0,168.0,8.0,0.0,8.0,3594.0,4.953,-120.0,-618.7,498.6,True,17.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+102537,TOSHIBA,FC30,2.0,0.0,0.0,167.0,3.0,0.0,3.0,1068.0,1.053,-314.8,-739.8,425.0,False,6.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102581,SIEMENS,B30f,2.0,0.0,0.0,145.0,6.0,0.0,6.0,1775.0,1.387,-111.4,-704.6,593.2,True,12.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+102658,SIEMENS,B50f,2.0,0.0,0.0,146.0,9.0,0.0,9.0,3149.0,2.585,-408.4,-796.0,387.6,False,18.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102660,Philips,D,3.2,0.0,0.0,150.0,4.0,0.0,3.0,166.0,0.141,-429.7,-764.9,335.2,False,7.2,Lesion 1 - Tumor - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102676,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,115.0,11.0,0.0,11.0,7425.0,5.955,-52.1,-326.7,274.7,True,27.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+102736,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,109.0,2.0,0.0,2.0,198.0,0.26,-248.1,-715.2,467.1,True,5.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+102746,TOSHIBA,FC51,2.0,0.0,0.0,149.0,5.0,0.0,5.0,2416.0,1.553,-530.6,-790.4,259.8,False,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+102806,TOSHIBA,FC51,2.0,0.0,0.0,160.0,34.0,0.0,34.0,206066.0,165.137,-14.7,-405.2,390.6,True,68.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+103232,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,129.0,6.0,0.0,6.0,1491.0,2.241,-105.0,-576.1,471.2,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+103344,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,156.0,6.0,0.0,6.0,868.0,1.073,-54.5,-623.9,569.4,True,12.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+103359,SIEMENS,B50f,2.0,0.0,0.635,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.64 mm off CT slices)
+103507,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,139.0,6.0,0.0,6.0,2297.0,2.839,-128.6,-628.1,499.4,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+103566,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,148.0,3.0,0.0,3.0,367.0,0.429,-571.7,-815.9,244.2,False,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+103619,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,150.0,7.0,0.0,7.0,1121.0,0.962,-195.6,-691.0,495.4,True,14.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+103621,SIEMENS,B30f,2.0,0.0,0.0,191.0,10.0,0.0,10.0,1763.0,1.841,-55.3,-508.5,453.2,True,18.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+103665,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,138.0,6.0,0.0,6.0,1213.0,1.26,-163.3,-812.6,649.3,True,15.0,Lesion 1 - Tumor - Unknown body region,PASS,
+103703,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,252.0,31.0,0.0,31.0,45131.0,32.786,-139.8,-592.4,452.6,True,40.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung,PASS,
+103760,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,246.0,11.0,0.0,11.0,4538.0,3.59,-172.9,-689.2,516.3,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104009,Philips,D,3.2,0.0,0.0,160.0,5.0,0.0,5.0,1690.0,2.021,-185.2,-437.6,252.4,True,11.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104063,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,176.0,5.0,0.0,5.0,843.0,0.768,-289.9,-645.0,355.0,True,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104168,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,113.0,10.0,0.0,10.0,23640.0,17.675,35.0,-125.4,160.5,True,25.0,Lesion 1 - Tumor - Left main bronchus,PASS,
+104182,SIEMENS,B50f,2.0,0.0,0.0,160.0,5.0,0.0,5.0,1135.0,1.25,-153.8,-637.3,483.5,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104208,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,120.0,4.0,0.0,4.0,337.0,0.309,-279.8,-696.3,416.4,True,10.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+104248,SIEMENS,B30f,2.0,0.0,0.0,149.0,14.0,0.0,14.0,8428.0,8.803,5.5,-271.2,276.6,True,28.0,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Hilum of right lung,PASS,
+104363,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,135.0,9.0,0.0,9.0,8625.0,7.403,-82.4,-544.9,462.5,True,22.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+104386,SIEMENS,B30f,2.0,0.0,0.0,152.0,9.0,0.0,9.0,3352.0,2.005,-187.8,-682.1,494.3,True,18.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+104564,Philips,C,2.0,0.0,0.0,149.0,8.0,0.0,8.0,7234.0,7.034,-52.9,-476.8,423.9,True,16.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104683,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,113.0,14.0,0.0,14.0,2935.0,3.048,-223.2,-668.1,444.9,True,92.5,Lesion 1 - Nodule - Upper lobe of left lung | Lesion 2 - Nodule - Upper lobe of left lung | Lesion 3 - Tumor - Upper lobe of left lung,PASS,
+104778,TOSHIBA,FC51,2.0,0.0,0.0,184.0,13.0,0.0,13.0,4391.0,4.061,-123.8,-599.0,475.2,True,26.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+104815,SIEMENS,B30f,2.0,0.0,0.0,169.0,12.0,0.0,12.0,6506.0,5.083,-631.1,-761.9,130.8,False,24.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+104960,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,7.0,0.0,7.0,2520.0,2.021,-156.2,-495.6,339.3,True,17.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+104999,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,120.0,4.0,0.0,4.0,359.0,0.444,-54.4,-706.7,652.4,True,10.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+105012,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,119.0,19.0,0.0,19.0,26291.0,21.82,-105.3,-346.0,240.7,True,47.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105142,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,122.0,4.0,0.0,4.0,1671.0,1.952,-203.3,-442.8,239.5,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105144,SIEMENS,B30f,2.0,0.0,0.0,175.0,5.0,0.0,5.0,4493.0,3.963,-128.1,-418.5,290.4,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105165,SIEMENS,B30f,2.0,0.0,0.0,160.0,4.0,0.0,4.0,240.0,0.173,-93.4,-606.1,512.6,True,8.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+105340,SIEMENS,B30f,2.0,0.0,0.0,174.0,7.0,0.0,7.0,616.0,0.463,-151.1,-684.0,532.9,True,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105352,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,248.0,9.0,0.0,9.0,1284.0,1.009,-162.4,-587.2,424.9,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105540,Philips,C,3.2,0.0,0.0,160.0,30.0,0.0,30.0,17647.0,21.511,-100.4,-587.8,487.4,True,165.2,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung | Lesion 3 - Nodule - Upper lobe of left lung,PASS,
+105562,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,134.0,9.0,0.0,9.0,5053.0,4.279,-247.1,-620.5,373.4,True,18.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+105713,SIEMENS,B30f,2.0,0.0,0.0,170.0,5.0,0.0,5.0,716.0,0.559,-63.6,-438.4,374.8,True,10.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+105767,SIEMENS,B30f,2.0,0.0,0.0,140.0,6.0,0.0,6.0,405.0,0.383,-237.2,-400.7,163.6,True,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+105771,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,221.0,23.0,0.0,23.0,8401.0,9.814,-37.3,-269.8,232.5,True,30.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+105974,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,6.0,0.0,6.0,1413.0,1.133,-189.0,-658.8,469.9,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+106000,SIEMENS,B50f,2.0,0.0,0.0,160.0,3.0,0.0,3.0,1108.0,0.904,-766.6,-870.6,104.0,False,6.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+106194,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,126.0,12.0,0.0,12.0,3043.0,3.761,-488.4,-700.2,211.8,False,30.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+106204,SIEMENS,B30f,2.0,0.0,0.0,141.0,5.0,0.0,5.0,626.0,0.514,-145.8,-665.0,519.2,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+106286,SIEMENS,B30f,2.0,0.0,0.0,157.0,41.0,0.0,29.0,72414.0,79.777,-18.6,-630.8,612.2,True,58.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+106364,SIEMENS,B30f,2.0,0.0,0.0,157.0,7.0,0.0,7.0,1448.0,0.747,-114.3,-730.4,616.1,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+106432,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,135.0,3.0,0.0,3.0,159.0,0.146,-450.9,-691.0,240.1,False,7.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+106498,SIEMENS,B30f,2.0,0.0,0.0,146.0,7.0,0.0,7.0,1155.0,0.847,-308.0,-646.5,338.5,False,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+106553,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,145.0,14.0,0.0,14.0,4566.0,5.961,-138.6,-521.3,382.7,True,35.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+106591,TOSHIBA,FC51,2.0,0.0,0.0,173.0,12.0,0.0,12.0,8424.0,7.451,-50.1,-475.4,425.3,True,24.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+106753,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,170.0,8.0,0.0,7.0,2629.0,2.109,-65.9,-395.7,329.8,True,14.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+106926,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,132.0,5.0,0.0,5.0,857.0,1.007,-190.0,-541.6,351.6,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+106971,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,127.0,6.0,0.0,6.0,2014.0,1.846,-395.4,-587.6,192.2,False,15.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+107002,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,122.0,15.0,0.0,15.0,6777.0,6.211,-127.5,-480.9,353.3,True,37.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107030,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,28.0,0.0,28.0,47151.0,58.277,-92.1,-486.7,394.6,True,97.5,Lesion 1 - Tumor - Hilum of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+107052,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,135.0,18.0,0.0,18.0,45376.0,50.025,-111.5,-595.7,484.3,True,45.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107058,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,131.0,6.0,0.0,6.0,1392.0,1.359,-118.0,-475.5,357.5,True,15.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107133,SIEMENS,B30f,2.0,0.0,0.0,167.0,6.0,0.0,6.0,685.0,0.535,-179.8,-698.1,518.3,True,11.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107151,SIEMENS,B30f,2.0,0.0,0.0,172.0,15.0,0.0,14.0,4336.0,4.052,-117.9,-666.4,548.6,True,28.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107211,Philips,B,3.2,0.0,0.0,162.0,2.0,0.0,2.0,178.0,0.259,-597.0,-884.7,287.7,False,5.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+107328,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,117.0,4.0,0.0,4.0,720.0,0.841,-181.0,-694.5,513.5,True,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107434,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,137.0,3.0,0.0,3.0,180.0,0.235,-212.8,-752.8,540.0,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+107521,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,142.0,8.0,0.0,8.0,3908.0,5.382,-259.9,-613.9,354.1,True,16.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+107561,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,158.0,9.0,0.0,9.0,1896.0,2.893,-272.8,-604.8,332.0,True,18.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+107610,SIEMENS,B30f,2.0,0.0,0.0,162.0,5.0,0.0,5.0,974.0,0.566,-244.6,-403.3,158.7,True,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107682,SIEMENS,B30f,2.0,0.0,0.0,164.0,10.0,0.0,10.0,3944.0,3.277,-96.6,-666.2,569.6,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+107791,SIEMENS,B30f,2.0,0.0,0.0,178.0,7.0,0.0,7.0,1509.0,1.179,-111.4,-443.3,331.9,True,12.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+107910,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,259.0,13.0,0.0,13.0,3910.0,4.699,-35.6,-324.0,288.4,True,53.8,Lesion 1 - Nodule - Upper lobe of right lung | Lesion 2 - Tumor - Hilum of right lung,PASS,
+108061,SIEMENS,B30f,2.0,0.0,0.0,168.0,12.0,0.0,11.0,3584.0,2.51,-122.6,-602.1,479.5,True,22.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+108245,Philips,D,3.2,0.0,0.0,160.0,11.0,0.0,11.0,10325.0,20.166,-32.4,-468.6,436.3,True,23.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+108352,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,115.0,3.0,0.0,3.0,256.0,0.282,-326.7,-659.9,333.1,False,7.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+108420,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,114.0,8.0,0.0,8.0,4090.0,5.055,-26.3,-747.6,721.2,True,20.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+108543,TOSHIBA,FC51,2.0,0.0,0.0,180.0,15.0,0.0,15.0,5892.0,6.646,-178.0,-711.8,533.8,True,30.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+108611,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,135.0,12.0,0.0,12.0,4208.0,4.639,-174.1,-650.2,476.1,True,120.5,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,
+108670,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,148.0,14.0,0.0,14.0,15135.0,11.397,-66.6,-636.6,570.0,True,28.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+108766,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,158.0,7.0,0.0,7.0,1828.0,1.83,-90.8,-644.3,553.5,True,14.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+108806,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,151.0,10.0,0.0,10.0,3920.0,4.322,-205.5,-565.1,359.6,True,20.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+108814,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,7.0,0.0,7.0,761.0,0.941,-239.6,-590.7,351.1,True,17.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+109189,SIEMENS,B50f,2.0,0.0,0.0,168.0,26.0,0.0,26.0,68385.0,97.368,5.3,-530.1,535.4,True,52.0,Lesion 1 - Tumor - Hilum of right lung,PASS,
+109345,SIEMENS,B30f,2.0,0.0,0.0,175.0,8.0,0.0,8.0,807.0,0.67,-150.5,-572.4,421.9,True,16.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+109462,,,,,,,,,,,,,,,,,,EXCLUDE,CT series not available in IDC
+109532,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,123.0,6.0,0.0,6.0,3018.0,3.627,-170.0,-396.3,226.3,True,15.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+109573,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,115.0,5.0,0.0,4.0,539.0,0.56,-501.1,-701.7,200.7,False,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+109616,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,121.0,10.0,0.0,10.0,7537.0,7.087,-90.1,-646.2,556.1,True,25.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+109852,TOSHIBA,FC51,2.0,0.0,0.0,151.0,15.0,0.0,15.0,21812.0,15.915,-27.3,-553.0,525.8,True,30.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+109889,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,122.0,17.0,0.0,17.0,12492.0,15.44,-182.7,-639.0,456.3,True,42.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+109965,SIEMENS,B30f,2.0,0.0,0.0,156.0,4.0,0.0,4.0,663.0,0.449,-71.3,-517.7,446.5,True,8.0,Lesion 1 - Tumor - Lingular bronchus,PASS,
+110021,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,18.0,0.0,18.0,22980.0,28.402,-21.4,-382.8,361.4,True,45.0,Lesion 1 - Tumor - Hilum of left lung,PASS,
+110061,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,125.0,5.0,0.0,5.0,332.0,0.41,-226.8,-734.7,507.9,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+110071,TOSHIBA,FC51,2.0,0.0,0.0,160.0,7.0,0.0,7.0,1427.0,1.041,-200.6,-646.6,446.0,True,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+110196,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,252.0,12.0,0.0,12.0,3901.0,3.645,-182.3,-660.6,478.2,True,16.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+110253,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,108.0,5.0,0.0,5.0,855.0,0.888,-135.3,-816.7,681.5,True,12.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+110356,SIEMENS,B30f,2.0,0.0,0.0,171.0,5.0,0.0,5.0,989.0,0.935,-272.9,-744.7,471.9,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+110716,SIEMENS,B30f,2.0,0.0,0.0,166.0,3.0,0.0,3.0,318.0,0.336,-579.6,-845.4,265.8,False,6.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+110817,SIEMENS,B30f,2.0,0.0,0.0,182.0,12.0,0.0,12.0,11897.0,10.741,-495.3,-672.9,177.6,False,24.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+110866,SIEMENS,B50f,2.0,0.0,0.0,140.0,14.0,0.0,14.0,8111.0,6.739,-42.3,-613.4,571.1,True,28.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+110987,SIEMENS,B30f,2.0,0.0,0.0,148.0,4.0,0.0,3.0,311.0,0.255,-148.3,-738.6,590.2,True,6.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+111221,SIEMENS,B30f,2.0,0.0,0.0,196.0,25.0,0.0,25.0,36468.0,30.299,-46.2,-493.8,447.6,True,99.2,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Upper lobe of left lung | Lesion 3 - Tumor - Lower lobe of right lung,PASS,
+111243,Philips,C,3.2,0.0,0.0,170.0,9.0,0.0,9.0,1389.0,2.089,-73.2,-352.9,279.6,True,19.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+111355,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,145.0,7.0,0.0,7.0,2722.0,3.458,-149.6,-680.6,530.9,True,17.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+111454,SIEMENS,B30f,2.0,0.0,0.0,169.0,6.0,0.0,6.0,954.0,0.943,-51.6,-589.2,537.6,True,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+111487,SIEMENS,B50f,2.0,0.0,0.0,170.0,16.0,0.0,16.0,12914.0,11.39,-144.9,-658.9,514.0,True,32.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+111859,TOSHIBA,FC51,2.0,0.0,0.0,156.0,18.0,0.0,18.0,20940.0,15.278,-16.0,-503.8,487.8,True,36.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+111891,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,164.0,3.0,0.0,3.0,147.0,0.162,-732.0,-843.4,111.4,False,6.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+112041,SIEMENS,B30f,2.0,0.0,0.0,155.0,46.0,0.0,6.0,1552.0,1.305,-150.6,-658.0,507.4,True,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+112073,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,121.0,5.0,0.0,4.0,218.0,0.255,-269.8,-596.4,326.6,True,10.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+112235,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,125.0,9.0,0.0,9.0,3045.0,3.557,-87.9,-626.9,539.0,True,22.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+112258,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,5.0,0.0,5.0,835.0,0.765,-257.7,-583.0,325.3,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+112285,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.741,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.74 mm off CT slices)
+112289,SIEMENS,B30f,2.0,0.0,0.0,169.0,10.0,0.0,10.0,3030.0,2.672,-126.7,-629.5,502.8,True,60.0,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Nodule - Lower lobe of left lung,PASS,
+112506,SIEMENS,B30f,2.0,0.0,0.0,160.0,17.0,0.0,16.0,2742.0,2.089,-378.6,-619.8,241.2,False,96.0,Lesion 1 - Tumor - Middle lobe of right lung | Lesion 2 - Tumor - Middle lobe of right lung | Lesion 3 - Nodule - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+112575,SIEMENS,B30f,2.0,0.0,0.0,177.0,9.0,0.0,9.0,2286.0,2.26,-180.9,-559.9,379.0,True,18.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+112851,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,128.0,13.0,0.0,13.0,11721.0,9.401,-129.2,-658.3,529.1,True,32.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+112893,SIEMENS,B30f,2.0,0.0,0.0,147.0,5.0,0.0,5.0,1202.0,0.825,-580.3,-798.2,217.9,False,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+112901,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,115.0,13.0,0.0,13.0,11616.0,8.685,-78.4,-567.3,489.0,True,32.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+112956,SIEMENS,B50f,2.0,0.0,0.458,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.46 mm off CT slices)
+113103,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,159.0,4.0,0.0,3.0,192.0,0.237,-58.0,-731.1,673.2,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+113176,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,116.0,13.0,0.0,13.0,6379.0,5.475,-167.6,-520.2,352.6,True,32.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+113502,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,183.0,4.0,0.0,4.0,429.0,0.368,-248.2,-681.6,433.4,True,8.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+113623,TOSHIBA,FC51,2.0,0.0,0.0,177.0,3.0,0.0,3.0,479.0,0.339,-578.9,-858.6,279.7,False,6.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+113814,SIEMENS,B30f,2.0,0.0,0.0,178.0,12.0,0.0,12.0,6126.0,5.403,-252.7,-504.0,251.3,True,24.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+113820,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,120.0,3.0,0.0,3.0,627.0,0.538,-493.4,-786.4,293.0,False,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+113918,TOSHIBA,FC51,2.0,0.0,0.0,185.0,12.0,0.0,12.0,3514.0,2.781,-95.9,-699.5,603.5,True,24.0,Lesion 1 - Nodule - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,
+113952,Philips,C,3.2,0.0,0.0,176.0,8.0,0.0,8.0,1922.0,2.112,-49.2,-547.5,498.3,True,17.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+114122,TOSHIBA,FC51,2.0,0.0,0.0,150.0,45.0,0.0,45.0,222008.0,191.076,42.4,-207.8,250.2,True,90.0,Lesion 1 - Tumor - Hilum of right lung,PASS,
+114182,SIEMENS,B30f,2.0,0.0,0.0,182.0,28.0,0.0,28.0,91146.0,69.439,-27.5,-457.3,429.8,True,56.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+114248,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,139.0,2.0,0.0,1.0,27.0,0.026,-159.6,-667.5,507.9,True,2.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+114311,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,123.0,7.0,0.0,7.0,1131.0,0.907,-228.2,-680.1,451.9,True,17.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+114378,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,4.0,0.0,4.0,1343.0,1.678,-617.9,-725.6,107.7,False,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+114541,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,12.0,0.0,12.0,13558.0,15.123,-19.2,-344.3,325.1,True,30.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+114683,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,234.0,8.0,0.0,8.0,1358.0,1.92,-543.9,-795.4,251.5,False,11.2,Lesion 1 - Tumor - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+114746,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,146.0,6.0,0.0,6.0,1617.0,1.209,-511.0,-778.8,267.8,False,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+114798,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,108.0,18.0,0.0,18.0,42531.0,36.505,10.0,-371.1,381.1,True,45.0,Lesion 1 - Tumor - Hilum of left lung,PASS,
+115020,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,125.0,4.0,0.0,4.0,535.0,0.625,-349.9,-515.2,165.3,False,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+115174,SIEMENS,B30f,2.0,0.0,0.0,180.0,8.0,0.0,8.0,1077.0,0.79,-159.7,-731.4,571.7,True,14.6,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+115345,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,125.0,3.0,0.0,3.0,355.0,0.371,-247.8,-658.4,410.6,True,7.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+115520,SIEMENS,B30f,2.0,0.0,0.0,170.0,21.0,0.0,21.0,24974.0,23.341,4.8,-288.8,293.6,True,42.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+115524,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,116.0,5.0,0.0,5.0,3144.0,4.56,-150.8,-602.5,451.7,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+115571,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,131.0,11.0,0.0,11.0,2725.0,2.83,-267.0,-636.2,369.1,True,27.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+115954,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,137.0,9.0,0.0,9.0,549.0,0.756,-221.6,-680.8,459.2,True,107.5,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Lower lobe of right lung | Lesion 3 - Tumor - Upper lobe of right lung | Lesion 4 - Tumor - Upper lobe of right lung,PASS,
+115962,SIEMENS,B30f,2.0,0.0,0.0,182.0,46.0,0.0,46.0,232299.0,193.004,-5.8,-145.3,139.4,True,92.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+116137,TOSHIBA,FC51,2.0,0.0,0.0,153.0,8.0,0.0,8.0,1595.0,1.27,-63.5,-401.7,338.2,True,16.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+116176,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,134.0,14.0,0.0,14.0,6095.0,7.12,-125.1,-421.7,296.7,True,35.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+116289,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,170.0,6.0,0.0,6.0,947.0,1.044,-227.2,-694.6,467.4,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+116747,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,225.0,7.0,0.0,7.0,473.0,0.462,-228.6,-749.6,521.0,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+116798,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,11.0,0.0,11.0,4343.0,5.67,-259.0,-397.8,138.8,True,27.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+116810,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,128.0,21.0,0.0,21.0,19551.0,24.164,8.8,-548.3,557.1,True,52.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+116837,SIEMENS,B30f,2.0,0.0,0.0,163.0,2.0,0.0,2.0,109.0,0.071,-220.8,-705.5,484.7,True,4.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+117025,SIEMENS,B30f,2.0,0.0,0.0,165.0,14.0,0.0,14.0,2183.0,2.268,-79.4,-604.6,525.2,True,190.0,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+117502,TOSHIBA,FC51,2.0,0.0,0.0,154.0,11.0,0.0,10.0,2736.0,2.269,-25.7,-624.8,599.1,True,20.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+117534,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,141.0,20.0,0.0,18.0,3789.0,4.683,-194.3,-544.4,350.1,True,65.0,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Nodule - Lower lobe of left lung,PASS,
+117601,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,120.0,12.0,0.0,12.0,8560.0,7.347,-84.7,-465.0,380.2,True,30.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+117612,SIEMENS,B30f,2.0,0.0,0.0,167.0,4.0,0.0,4.0,955.0,0.823,-124.8,-531.9,407.2,True,8.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+117618,SIEMENS,B30f,2.0,0.0,0.0,154.0,8.0,0.0,8.0,1127.0,0.674,-658.6,-839.4,180.7,False,16.0,Lesion 1 - Nodule - Middle lobe of right lung | Lesion 2 - Nodule - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+117627,SIEMENS,B30f,2.0,0.0,0.0,146.0,10.0,0.0,10.0,7491.0,4.166,-77.9,-563.6,485.7,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+117632,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,142.0,4.0,0.0,4.0,266.0,0.26,-154.4,-533.6,379.2,True,8.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+117799,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,156.0,12.0,0.0,12.0,2184.0,2.133,-138.6,-538.8,400.2,True,24.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+117820,SIEMENS,B30f,2.0,0.0,0.0,163.0,6.0,0.0,6.0,440.0,0.302,-284.9,-675.4,390.5,True,12.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+117950,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,127.0,5.0,0.0,4.0,550.0,0.606,-107.6,-499.2,391.6,True,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+117966,SIEMENS,B30f,2.0,0.0,0.0,163.0,3.0,0.0,3.0,392.0,0.234,-193.3,-722.5,529.2,True,6.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+118248,Philips,C,3.2,0.0,0.0,174.0,15.0,0.0,15.0,7077.0,13.822,-106.8,-526.3,419.5,True,31.2,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+118297,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,167.0,6.0,0.0,5.0,783.0,0.672,-78.3,-604.0,525.6,True,10.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+118323,SIEMENS,B30f,2.0,0.0,0.0,161.0,7.0,0.0,7.0,2272.0,1.687,-115.5,-645.4,529.9,True,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+118553,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,113.0,2.0,0.0,2.0,245.0,0.17,-260.2,-318.4,58.2,True,5.0,Lesion 1 - Tumor - Upper lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+118560,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,166.0,9.0,0.0,9.0,1842.0,2.672,-40.3,-486.0,445.7,True,18.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+118602,SIEMENS,B30f,2.0,0.0,0.0,155.0,4.0,0.0,4.0,426.0,0.333,-279.8,-718.7,438.9,True,8.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+118664,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,113.0,8.0,0.0,8.0,966.0,0.932,-239.6,-676.5,436.9,True,20.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+118672,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,212.0,3.0,0.0,3.0,396.0,0.296,-187.7,-442.9,255.2,True,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+118681,SIEMENS,B30f,2.0,0.0,0.0,175.0,8.0,0.0,8.0,1287.0,1.571,-430.2,-634.4,204.2,False,16.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+118713,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,145.0,12.0,0.0,11.0,3265.0,3.188,-130.3,-610.8,480.5,True,122.5,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Nodule - Upper lobe of left lung,PASS,
+118719,SIEMENS,B30f,2.0,0.0,0.0,156.0,19.0,0.0,19.0,27779.0,24.5,-29.5,-315.7,286.2,True,38.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+119029,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,153.0,30.0,0.0,30.0,31046.0,38.372,-87.5,-566.8,479.3,True,86.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+119129,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,128.0,10.0,0.0,10.0,5733.0,7.086,-216.1,-365.2,149.0,True,25.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+119326,TOSHIBA,FC51,2.0,0.0,0.0,185.0,18.0,0.0,18.0,17904.0,13.988,-113.3,-539.9,426.6,True,36.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+119358,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,164.0,6.0,0.0,6.0,704.0,0.969,-214.7,-714.1,499.4,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+119474,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,111.0,6.0,0.0,6.0,458.0,0.532,-244.9,-606.3,361.4,True,75.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,
+119496,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,13.0,0.0,13.0,11918.0,14.73,-101.0,-561.4,460.4,True,32.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+119597,TOSHIBA,FC51,2.0,0.0,0.0,156.0,7.0,0.0,7.0,2209.0,1.317,-133.7,-534.1,400.4,True,14.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+119743,SIEMENS,B30f,2.0,0.0,0.0,152.0,12.0,0.0,10.0,3316.0,2.591,-226.3,-680.1,453.8,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+119818,SIEMENS,B30f,2.0,0.0,0.0,162.0,22.0,0.0,22.0,5375.0,4.741,-137.4,-670.7,533.2,True,44.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+119839,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,102.0,9.0,0.0,9.0,3680.0,4.299,-133.9,-720.1,586.1,True,22.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+119843,Philips,C,3.2,0.0,0.0,160.0,50.0,0.0,50.0,349811.0,448.264,-1.0,-261.0,260.0,True,101.2,Lesion 1 - Tumor - Hilum of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+119911,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,152.0,3.0,0.0,3.0,1337.0,1.0,-578.6,-722.8,144.2,False,6.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+119924,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,139.0,5.0,0.0,5.0,5687.0,7.668,-12.8,-346.0,333.2,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+120070,SIEMENS,B30f,2.0,0.0,0.0,153.0,13.0,0.0,13.0,3174.0,3.759,-52.8,-569.6,516.8,True,26.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+120252,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,174.0,7.0,0.0,7.0,1603.0,1.565,-51.1,-445.8,394.7,True,14.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+120289,SIEMENS,B30f,2.0,0.0,0.0,173.0,12.0,0.0,12.0,5963.0,3.826,-74.9,-435.5,360.6,True,24.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+120316,SIEMENS,B30f,2.0,0.0,0.0,159.0,5.0,0.0,5.0,588.0,0.718,-52.4,-594.0,541.6,True,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+120393,SIEMENS,B50f,2.0,0.0,0.0,182.0,10.0,0.0,10.0,4071.0,3.87,-37.8,-643.1,605.3,True,20.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+120410,SIEMENS,B30f,2.0,0.0,0.0,162.0,22.0,0.0,22.0,30122.0,23.24,-104.7,-655.8,551.1,True,44.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+120570,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,137.0,9.0,0.0,9.0,2505.0,3.395,-360.5,-711.7,351.2,False,22.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+120573,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,122.0,2.0,0.0,2.0,302.0,0.242,-578.1,-744.4,166.3,False,5.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+120701,SIEMENS,B50f,2.0,0.0,0.0,154.0,12.0,0.0,12.0,4261.0,2.696,-81.1,-582.9,501.7,True,24.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+120708,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,9.0,0.0,9.0,11024.0,12.153,-266.7,-529.4,262.8,True,22.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+120790,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,108.0,4.0,0.0,4.0,671.0,0.924,-290.1,-688.0,397.9,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+120849,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,111.0,15.0,0.0,15.0,16000.0,18.692,-27.7,-365.3,337.6,True,37.5,Lesion 1 - Tumor - Hilum of left lung,PASS,
+120954,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,116.0,9.0,0.0,9.0,1458.0,1.802,-158.8,-680.2,521.4,True,22.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+120969,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,146.0,5.0,0.0,5.0,318.0,0.415,-127.3,-447.5,320.2,True,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+120981,SIEMENS,B50f,2.0,0.0,0.0,177.0,21.0,0.0,21.0,27609.0,24.637,-34.0,-452.6,418.6,True,42.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Hilum of left lung,PASS,
+121004,TOSHIBA,FC51,2.0,0.0,0.0,140.0,9.0,0.0,9.0,2648.0,2.463,-122.6,-675.3,552.7,True,18.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+121073,SIEMENS,B30f,2.0,0.0,0.0,145.0,8.0,0.0,8.0,1363.0,0.758,-272.3,-645.9,373.7,True,16.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+121099,SIEMENS,B50f,2.0,0.0,0.0,169.0,12.0,0.0,12.0,5649.0,6.223,-70.2,-446.2,376.0,True,24.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+121169,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,129.0,4.0,0.0,3.0,268.0,0.278,-233.2,-537.6,304.4,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+121181,SIEMENS,B30f,2.0,0.0,0.0,159.0,12.0,0.0,12.0,11981.0,13.199,-45.3,-529.9,484.7,True,24.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+121333,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,126.0,18.0,0.0,18.0,6439.0,8.407,-350.6,-446.5,96.0,False,45.0,Lesion 1 - Tumor - Lower lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+121337,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,249.0,36.0,0.0,36.0,10161.0,11.268,-120.6,-619.3,498.7,True,68.8,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Upper lobe of left lung,PASS,
+121469,SIEMENS,B50f,2.0,0.0,0.0,144.0,9.0,0.0,9.0,1123.0,0.856,-41.1,-831.9,790.8,True,18.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+121786,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,42.0,0.0,42.0,136601.0,168.834,-22.4,-226.5,204.1,True,105.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+121794,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,132.0,5.0,0.0,5.0,2711.0,2.748,-203.1,-616.9,413.8,True,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+121852,SIEMENS,B30f,2.0,0.0,0.0,160.0,4.0,0.0,4.0,496.0,0.341,-55.1,-580.1,525.0,True,8.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+121893,SIEMENS,B50f,2.0,0.0,0.0,182.0,6.0,0.0,6.0,2200.0,2.273,-160.7,-555.9,395.3,True,12.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+121895,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.724,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.72 mm off CT slices)
+121999,SIEMENS,B30f,2.0,0.0,0.0,157.0,6.0,0.0,6.0,1137.0,0.73,-237.4,-659.5,422.1,True,12.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+122025,SIEMENS,B30f,2.0,0.0,0.899,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.90 mm off CT slices)
+122117,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,128.0,6.0,0.0,6.0,4905.0,5.407,-174.0,-337.7,163.7,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+122135,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,112.0,19.0,0.0,19.0,11777.0,13.291,-81.8,-590.0,508.2,True,47.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+122226,TOSHIBA,FC51,2.0,0.0,0.0,166.0,28.0,0.0,27.0,4885.0,3.412,-117.6,-601.0,483.4,True,102.0,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Nodule - Upper lobe of left lung | Lesion 3 - Nodule - Upper lobe of left lung | Lesion 4 - Nodule - Upper lobe of left lung,PASS,
+122262,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,156.0,9.0,0.0,9.0,3520.0,4.847,-126.2,-679.9,553.7,True,22.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+122364,SIEMENS,B50f,2.0,0.0,0.0,158.0,7.0,0.0,7.0,1335.0,1.109,-46.5,-626.8,580.3,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+122376,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,8.0,0.0,8.0,540.0,0.732,-329.4,-666.4,337.0,False,20.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+122590,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,14.0,0.0,14.0,4608.0,5.984,-501.1,-691.1,190.0,False,35.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+122866,SIEMENS,B50f,2.0,0.0,0.0,152.0,5.0,0.0,5.0,813.0,0.804,-261.7,-776.4,514.7,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+123066,SIEMENS,B30f,2.0,0.0,0.0,171.0,8.0,0.0,8.0,1163.0,1.15,-240.3,-710.8,470.5,True,14.6,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+123072,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,163.0,4.0,0.0,4.0,401.0,0.552,-372.7,-736.0,363.3,False,8.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+123123,SIEMENS,B30f,2.0,0.0,0.0,141.0,11.0,0.0,11.0,9691.0,8.749,-70.4,-625.8,555.4,True,22.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+123145,Philips,C,3.2,0.0,0.0,141.0,3.0,0.0,3.0,452.0,0.379,-217.6,-521.1,303.5,True,7.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+123247,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,99.0,14.0,0.0,14.0,4204.0,5.196,-26.2,-498.6,472.4,True,50.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+123515,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,134.0,4.0,0.0,4.0,756.0,0.734,-270.3,-660.2,389.9,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+123521,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,153.0,6.0,0.0,6.0,733.0,0.856,-216.7,-618.4,401.7,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+123629,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,161.0,7.0,0.0,7.0,925.0,1.143,-299.3,-708.5,409.2,True,14.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+123810,TOSHIBA,FC10,2.0,0.0,0.0,171.0,10.0,0.0,10.0,1906.0,1.676,-55.3,-481.8,426.5,True,20.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+123891,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,119.0,5.0,0.0,5.0,640.0,0.681,-252.0,-689.9,437.9,True,12.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+123944,Philips,C,3.2,0.0,0.0,148.0,6.0,0.0,6.0,1331.0,1.602,-145.5,-572.1,426.6,True,13.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+123993,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,277.0,30.0,0.0,30.0,23476.0,29.827,-20.4,-502.1,481.7,True,38.8,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+124190,SIEMENS,B30f,2.0,0.0,0.0,142.0,5.0,0.0,5.0,773.0,0.682,-199.1,-604.8,405.7,True,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+124261,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,151.0,5.0,0.0,5.0,571.0,0.706,-190.7,-703.5,512.8,True,10.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+124323,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,122.0,8.0,0.0,8.0,1300.0,1.342,-531.2,-730.4,199.2,False,27.5,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Nodule - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+124436,Philips,D,3.2,0.0,0.0,184.0,12.0,0.0,12.0,10630.0,14.045,-11.0,-604.9,594.0,True,25.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+124486,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,130.0,4.0,0.0,4.0,381.0,0.471,-154.1,-789.1,635.1,True,10.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+124533,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,131.0,3.0,0.0,3.0,412.0,0.509,-167.2,-640.9,473.7,True,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+124696,SIEMENS,B30f,2.0,0.0,0.0,170.0,15.0,0.0,15.0,5923.0,4.627,-34.9,-612.2,577.3,True,30.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+124864,SIEMENS,B30f,2.0,0.0,0.0,154.0,10.0,0.0,10.0,3678.0,3.477,-475.4,-776.1,300.7,False,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+124978,SIEMENS,B30f,2.0,0.0,0.0,174.0,6.0,0.0,6.0,788.0,0.868,-131.3,-666.1,534.8,True,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+124998,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,122.0,3.0,0.0,3.0,622.0,0.642,-663.6,-845.7,182.1,False,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+125353,SIEMENS,B30f,2.0,0.0,0.0,161.0,10.0,0.0,10.0,1903.0,1.809,-68.2,-648.7,580.4,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+125378,SIEMENS,B30f,2.0,0.0,0.0,173.0,18.0,0.0,17.0,5472.0,5.715,-111.9,-449.7,337.8,True,36.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+125408,SIEMENS,B30f,2.0,0.0,0.0,152.0,14.0,0.0,14.0,2113.0,1.975,-87.4,-684.3,596.9,True,74.0,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Nodule - Lower lobe of left lung,PASS,
+125450,SIEMENS,B30f,2.0,0.0,0.0,180.0,7.0,0.0,7.0,598.0,0.645,-222.0,-509.9,287.8,True,32.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+125663,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,131.0,20.0,0.0,20.0,22369.0,29.047,-57.9,-602.0,544.1,True,50.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+125727,SIEMENS,B30f,2.0,0.0,0.0,159.0,5.0,0.0,5.0,1027.0,0.96,-414.7,-736.2,321.5,False,10.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+126244,SIEMENS,B30f,2.0,0.0,0.0,154.0,6.0,0.0,6.0,995.0,0.595,-377.1,-702.7,325.6,False,12.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+126446,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,143.0,24.0,0.0,24.0,1943.0,2.965,-167.8,-562.6,394.8,True,94.5,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung | Lesion 3 - Tumor - Lower lobe of right lung | Lesion 4 - Tumor - Lower lobe of right lung | Lesion 5 - Tumor - Lower lobe of right lung | Lesion 6 - Tumor - Lower lobe of right lung | Lesion 7 - Tumor - Lower lobe of right lung,PASS,
+126520,SIEMENS,B50f,2.0,0.0,0.0,149.0,5.0,0.0,5.0,2258.0,1.351,-133.4,-434.9,301.5,True,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+126576,,,,,,,,,,,,,,,,,,EXCLUDE,CT series not available in IDC
+126698,SIEMENS,B50f,2.0,0.0,0.0,143.0,8.0,0.0,8.0,1978.0,1.956,-108.1,-684.3,576.2,True,16.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+126792,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,131.0,5.0,0.0,5.0,1035.0,1.141,-196.2,-628.6,432.4,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+126823,SIEMENS,B30f,2.0,0.0,0.0,173.0,7.0,0.0,7.0,1293.0,0.847,-156.6,-691.9,535.3,True,14.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+126836,Philips,D,3.2,0.0,0.0,141.0,21.0,0.0,21.0,31299.0,40.605,-0.2,-576.1,575.9,True,43.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+126955,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,172.0,7.0,0.0,7.0,1921.0,2.081,-243.3,-654.0,410.6,True,14.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+126967,SIEMENS,B30f,2.0,0.0,0.0,219.0,8.0,0.0,8.0,1484.0,1.467,-204.7,-809.4,604.7,True,14.6,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+126977,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,156.0,4.0,0.0,4.0,622.0,0.769,-355.6,-749.0,393.4,False,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+126999,TOSHIBA,FC51,2.0,0.0,0.0,154.0,10.0,0.0,10.0,5381.0,3.965,-35.2,-665.5,630.2,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+127298,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,149.0,27.0,0.0,25.0,11130.0,16.983,-150.4,-554.4,404.1,True,67.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+127302,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,135.0,7.0,0.0,6.0,1428.0,1.765,-118.9,-694.7,575.7,True,15.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+127399,SIEMENS,B50f,2.0,0.0,0.0,151.0,20.0,0.0,20.0,60403.0,47.19,17.2,-205.0,222.2,True,40.0,Lesion 1 - Tumor - Hilum of right lung,PASS,
+127400,SIEMENS,B30f,2.0,0.0,0.0,146.0,50.0,0.0,50.0,39234.0,36.668,-134.1,-651.4,517.3,True,178.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung | Lesion 3 - Tumor - Lower lobe of right lung | Lesion 4 - Tumor - Lower lobe of right lung,PASS,
+127619,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,149.0,4.0,0.0,4.0,440.0,0.485,-158.2,-708.2,550.0,True,8.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+127890,SIEMENS,B30f,2.0,0.0,0.333,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.33 mm off CT slices)
+127923,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,10.0,0.0,10.0,5530.0,6.46,-51.8,-501.2,449.4,True,25.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+127992,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,6.0,0.0,6.0,2640.0,2.91,-28.0,-495.4,467.4,True,15.0,Lesion 1 - Tumor - Hilum of left lung,PASS,
+128156,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,191.0,21.0,0.0,21.0,14453.0,17.078,-60.8,-461.5,400.6,True,42.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+128377,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,153.0,8.0,0.0,8.0,2225.0,2.311,-87.8,-612.5,524.8,True,16.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+128443,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,256.0,13.0,0.0,13.0,3153.0,4.028,-19.6,-446.0,426.4,True,17.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+128534,Philips,C,3.2,0.0,0.0,204.0,32.0,0.0,32.0,102466.0,151.478,-23.7,-243.7,220.0,True,52.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+128651,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,141.0,10.0,0.0,10.0,5418.0,6.696,-80.5,-584.1,503.6,True,25.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+128669,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,134.0,5.0,0.0,5.0,495.0,0.37,-85.9,-418.4,332.5,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+128880,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,5.0,0.0,5.0,1301.0,1.117,-293.3,-603.8,310.6,True,12.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+128940,SIEMENS,B30f,2.0,0.0,0.0,141.0,6.0,0.0,6.0,1155.0,0.691,-361.5,-667.1,305.6,False,12.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+128944,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,150.0,6.0,0.0,6.0,1097.0,1.432,-220.0,-572.9,352.9,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+129035,SIEMENS,B30f,2.0,0.0,0.0,198.0,4.0,0.0,4.0,1863.0,1.195,-533.4,-756.2,222.8,False,7.4,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+129155,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,158.0,3.0,0.0,3.0,283.0,0.312,-280.4,-561.0,280.6,True,6.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+129285,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,142.0,8.0,0.0,8.0,4656.0,5.133,-83.1,-309.1,226.1,True,16.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+129511,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,116.0,7.0,0.0,7.0,1213.0,1.345,-228.2,-630.8,402.5,True,17.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+129534,SIEMENS,B30f,2.0,0.0,0.0,160.0,24.0,0.0,13.0,2380.0,2.65,-55.0,-322.4,267.4,True,46.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+129553,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,157.0,10.0,0.0,10.0,3146.0,4.107,-263.7,-666.6,402.9,True,20.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+129627,SIEMENS,B30f,2.0,0.0,0.0,151.0,6.0,0.0,5.0,641.0,0.565,-124.1,-618.9,494.9,True,10.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+129695,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,130.0,10.0,0.0,10.0,8817.0,7.072,-283.6,-533.5,249.9,True,25.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+130033,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,138.0,12.0,0.0,12.0,7090.0,6.924,-193.1,-665.6,472.6,True,30.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+130133,Philips,C,3.2,0.0,0.0,166.0,4.0,0.0,4.0,2420.0,2.766,-215.1,-516.0,301.0,True,9.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+130162,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,126.0,21.0,0.0,21.0,64993.0,80.329,-13.0,-527.1,514.1,True,52.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+130315,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,123.0,5.0,0.0,5.0,2042.0,1.638,-421.7,-683.2,261.5,False,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+130467,SIEMENS,B50f,2.0,0.0,0.0,155.0,8.0,0.0,8.0,4289.0,3.783,-141.3,-608.6,467.2,True,16.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+130491,SIEMENS,B30f,2.0,0.0,0.0,149.0,13.0,0.0,13.0,9079.0,5.825,-41.4,-528.6,487.3,True,26.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+130624,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,120.0,5.0,0.0,5.0,1083.0,1.058,-86.5,-739.0,652.5,True,12.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+130655,SIEMENS,B30f,2.0,0.0,0.0,157.0,8.0,0.0,8.0,1398.0,1.337,-38.3,-472.1,433.8,True,16.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+130706,Philips,C,3.2,0.0,0.0,158.0,5.0,0.0,5.0,306.0,0.338,-230.8,-666.0,435.2,True,11.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+130942,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,231.0,14.0,0.0,14.0,10248.0,12.807,-87.5,-554.9,467.3,True,18.8,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+130975,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,120.0,6.0,0.0,6.0,2959.0,2.712,-136.9,-554.2,417.3,True,15.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+131005,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,111.0,6.0,0.0,5.0,423.0,0.61,-206.4,-731.1,524.7,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+131156,TOSHIBA,FC51,2.0,0.0,0.0,146.0,5.0,0.0,5.0,783.0,0.447,-96.0,-479.0,383.0,True,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+131174,TOSHIBA,FC51,2.0,0.0,0.0,143.0,6.0,0.0,6.0,796.0,0.549,-91.3,-611.1,519.7,True,12.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+131306,SIEMENS,B50f,2.0,0.0,0.0,145.0,6.0,0.0,6.0,1213.0,1.226,-106.3,-673.6,567.4,True,12.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+131423,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,175.0,7.0,0.0,7.0,1125.0,1.39,-201.8,-714.8,513.0,True,14.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+131486,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,133.0,7.0,0.0,7.0,2897.0,2.829,-155.8,-549.7,393.9,True,17.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+131542,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,142.0,4.0,0.0,4.0,304.0,0.335,-443.3,-782.1,338.7,False,10.0,Lesion 1 - Tumor - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+131611,TOSHIBA,FC01,2.0,0.0,0.0,146.0,12.0,0.0,12.0,2435.0,2.02,-218.1,-611.5,393.4,True,76.0,Lesion 1 - Nodule - Lower lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung | Lesion 3 - Nodule - Lower lobe of right lung,PASS,
+131657,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,141.0,12.0,0.0,11.0,2342.0,3.058,-222.4,-612.6,390.2,True,27.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+131910,SIEMENS,B50f,2.0,0.0,0.0,147.0,18.0,0.0,18.0,23908.0,18.678,-35.5,-508.5,473.0,True,36.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+131963,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,132.0,8.0,0.0,7.0,1458.0,1.607,-360.3,-678.5,318.2,False,17.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+131979,TOSHIBA,FC02,3.0,0.0,0.0,99.0,4.0,0.0,4.0,353.0,0.522,-187.1,-613.7,426.5,True,12.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+132036,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,12.0,0.0,12.0,6756.0,7.448,-56.1,-463.3,407.2,True,30.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+132047,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,132.0,7.0,0.0,7.0,7526.0,8.007,-55.8,-271.9,216.1,True,17.5,Lesion 1 - Tumor - Hilum of right lung,PASS,
+132227,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,8.0,0.0,8.0,2487.0,2.583,-96.9,-536.1,439.2,True,16.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+132313,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,151.0,5.0,0.0,5.0,3229.0,3.991,-238.4,-541.8,303.3,True,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+132386,TOSHIBA,FC51,2.0,0.0,0.0,133.0,13.0,0.0,11.0,4383.0,3.424,-96.7,-699.9,603.3,True,22.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+132606,SIEMENS,B30f,2.0,0.0,0.0,162.0,7.0,0.0,7.0,2891.0,2.641,-160.4,-619.3,459.0,True,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+132823,Philips,A,3.2,0.0,0.0,212.0,9.0,0.0,9.0,5640.0,6.155,-75.0,-553.0,477.9,True,28.8,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+133076,SIEMENS,B50f,2.0,0.0,999.0,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+133201,TOSHIBA,FC51,2.0,0.0,0.0,181.0,4.0,0.0,3.0,284.0,0.178,-207.5,-685.0,477.6,True,6.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133279,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,173.0,6.0,0.0,6.0,382.0,0.583,-84.7,-608.6,523.9,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133301,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,124.0,3.0,0.0,3.0,720.0,0.464,-100.7,-378.6,277.9,True,7.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+133317,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.319,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.32 mm off CT slices)
+133321,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,125.0,6.0,0.0,6.0,961.0,1.323,-176.0,-654.4,478.4,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133545,SIEMENS,B30f,2.0,0.0,0.0,169.0,4.0,0.0,4.0,124.0,0.188,-435.8,-813.1,377.4,False,8.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+133640,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,120.0,5.0,0.0,5.0,870.0,0.915,-225.6,-656.7,431.1,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133719,SIEMENS,B30f,2.0,0.0,0.0,152.0,17.0,0.0,17.0,4448.0,4.521,-60.4,-598.1,537.7,True,34.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133786,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,109.0,7.0,0.0,7.0,2897.0,3.082,-155.8,-619.1,463.3,True,17.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+133811,Philips,C,3.2,0.0,0.0,170.0,5.0,0.0,5.0,638.0,0.916,-160.2,-614.9,454.7,True,11.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+133934,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,132.0,9.0,0.0,9.0,3097.0,4.265,-116.9,-672.0,555.1,True,22.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+134009,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,121.0,3.0,0.0,3.0,381.0,0.525,-244.0,-600.8,356.8,True,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+134082,SIEMENS,B30f,2.0,0.0,0.0,147.0,5.0,0.0,5.0,786.0,0.622,-141.6,-520.1,378.5,True,10.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+134088,SIEMENS,B50f,2.0,0.0,0.0,177.0,17.0,0.0,6.0,1594.0,1.756,-679.9,-785.0,105.1,False,12.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+134257,SIEMENS,B30f,2.0,0.0,0.0,172.0,7.0,0.0,7.0,3080.0,1.882,-523.8,-711.8,188.0,False,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+134371,TOSHIBA,FC51,2.0,0.0,0.0,169.0,7.0,0.0,7.0,807.0,0.643,-191.6,-731.6,540.0,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+134408,TOSHIBA,FC51,2.0,0.0,0.0,186.0,7.0,0.0,7.0,2842.0,2.328,-130.7,-734.3,603.6,True,14.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+134457,SIEMENS,B30f,2.0,0.0,0.0,174.0,3.0,0.0,3.0,477.0,0.35,-282.7,-558.6,275.9,True,5.6,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+134491,TOSHIBA,FC51,2.0,0.0,0.0,152.0,6.0,0.0,6.0,2489.0,1.798,-130.4,-496.1,365.6,True,12.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+134493,SIEMENS,B50f,2.0,0.0,0.0,163.0,20.0,0.0,20.0,11693.0,10.68,-55.2,-654.9,599.7,True,40.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+134503,SIEMENS,B30f,2.0,0.0,0.0,152.0,7.0,0.0,7.0,1439.0,1.196,-101.8,-696.2,594.4,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+200017,TOSHIBA,FC10,2.0,0.0,0.001,175.0,4.0,0.0,4.0,273.0,0.241,-376.0,-667.5,291.5,False,7.1,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+200056,SIEMENS,B30f,2.0,0.0,0.0,183.0,5.0,0.0,5.0,1068.0,0.942,-479.8,-753.7,273.9,False,9.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+200066,SIEMENS,B30f,2.0,0.0,0.0,212.0,4.0,0.0,4.0,271.0,0.299,-168.4,-711.3,542.9,True,6.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+200129,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,439.0,10.0,0.0,10.0,363.0,0.192,-249.1,-734.9,485.8,True,7.7,Lesion 1 - Nodule - Upper lobe of left lung,PASS,
+200209,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,265.0,6.0,0.0,6.0,177.0,0.27,-99.6,-818.9,719.3,True,8.8,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+200221,SIEMENS,B30f,2.0,0.0,0.0,155.0,55.0,0.0,4.0,114.0,0.126,-310.5,-824.7,514.2,False,97.4,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+200397,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,297.0,7.0,0.0,6.0,5237.0,5.146,-739.1,-814.2,75.0,False,14.5,Lesion 1 - Tumor - Upper lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+200527,SIEMENS,B30f,1.0,0.0,0.0,361.0,34.0,0.0,34.0,24676.0,13.593,-80.0,-514.5,434.5,True,34.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+200628,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,157.0,21.0,0.0,21.0,11745.0,12.198,-37.3,-271.9,234.6,True,42.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+200674,TOSHIBA,FC10,2.0,0.0,0.001,195.0,10.0,0.0,10.0,2930.0,2.734,-202.2,-637.8,435.5,True,18.2,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+200683,SIEMENS,B,2.0,0.0,0.746,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.75 mm off CT slices)
+200701,Philips,C,1.3,0.0,0.0,242.0,74.0,0.0,74.0,256897.0,102.754,-4.2,-382.4,378.2,True,101.4,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Upper lobe of left lung | Lesion 3 - Tumor - Upper lobe of left lung,PASS,
+200925,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,157.0,3.0,0.0,2.0,228.0,0.201,-78.2,-509.3,431.0,True,4.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+200931,Philips,B,2.0,0.0,0.0,212.0,27.0,0.0,27.0,92359.0,69.918,-25.1,-495.0,469.9,True,48.8,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+200969,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,163.0,5.0,0.0,5.0,665.0,0.822,-183.9,-540.2,356.3,True,10.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+201018,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,183.0,12.0,0.0,12.0,4119.0,4.514,-341.6,-543.4,201.8,False,40.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+201275,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,283.0,44.0,0.0,44.0,63050.0,65.481,-183.5,-515.2,331.8,True,56.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+201465,Philips,C,3.2,0.0,0.0,121.0,13.0,0.0,13.0,13785.0,13.005,-56.5,-483.3,426.9,True,27.2,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Lower lobe of left lung | Lesion 3 - Tumor - Middle lobe of right lung,PASS,
+201519,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,265.0,16.0,0.0,16.0,5599.0,6.173,-54.1,-716.0,661.9,True,21.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+201528,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,151.0,17.0,0.0,17.0,14501.0,17.923,-367.7,-508.7,141.0,False,34.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+201641,Philips,C,2.0,0.0,0.0,175.0,11.0,0.0,11.0,4258.0,4.447,-93.1,-534.4,441.3,True,20.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+201674,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,176.0,8.0,0.0,8.0,3214.0,3.712,-214.7,-713.1,498.4,True,16.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+201726,SIEMENS,B30f,2.0,0.0,0.0,183.0,7.0,0.0,7.0,1270.0,1.12,-61.6,-651.9,590.3,True,12.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+201769,SIEMENS,B30f,1.0,0.0,0.0,354.0,20.0,0.0,20.0,7634.0,3.486,-20.9,-475.9,455.0,True,20.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+201938,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.136,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.14 mm off CT slices)
+201979,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,159.0,9.0,0.0,8.0,4066.0,4.121,-125.9,-563.8,437.8,True,16.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+202014,Philips,C,3.2,0.0,0.0,156.0,24.0,0.0,24.0,37277.0,31.236,-71.4,-492.8,421.5,True,49.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+202128,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.308,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.31 mm off CT slices)
+202165,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.139,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.14 mm off CT slices)
+202219,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,253.0,17.0,0.0,16.0,1723.0,2.25,-152.1,-543.8,391.7,True,46.2,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,
+202268,TOSHIBA,FC10,2.0,0.0,0.001,183.0,5.0,0.0,5.0,225.0,0.262,-150.8,-610.0,459.2,True,9.2,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+202610,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,265.0,38.0,0.0,38.0,11240.0,9.647,-8.8,-613.0,604.2,True,48.7,Lesion 1 - Nodule - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+202611,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,128.0,8.0,0.0,8.0,940.0,1.442,-97.0,-672.6,575.6,True,20.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+202665,SIEMENS,B50f,1.0,0.0,0.0,356.0,19.0,0.0,19.0,15738.0,6.538,-309.7,-532.3,222.6,False,19.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+202748,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,243.0,6.0,0.0,6.0,296.0,0.408,-358.5,-804.1,445.6,False,8.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+202822,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,126.0,5.0,0.0,5.0,1076.0,1.214,-84.5,-375.9,291.3,True,12.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+202976,SIEMENS,B30f,2.0,0.0,0.0,214.0,10.0,0.0,10.0,4555.0,4.63,-13.0,-579.5,566.6,True,18.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+203010,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,250.0,35.0,0.0,35.0,60364.0,74.608,-24.7,-376.4,351.7,True,45.0,Lesion 1 - Tumor - Left main bronchus,PASS,
+203087,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,262.0,20.0,0.0,20.0,3733.0,4.115,46.2,-628.5,674.7,True,86.3,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Lingular bronchus,PASS,
+203125,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,174.0,16.0,0.0,16.0,23929.0,23.077,-73.1,-699.0,625.9,True,32.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+203166,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,348.0,57.0,0.0,57.0,216386.0,128.374,-14.0,-400.7,386.7,True,57.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+203288,SIEMENS,B50f,1.0,0.0,0.0,438.0,11.0,0.0,11.0,2512.0,0.981,-223.8,-583.9,360.0,True,9.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+203449,SIEMENS,B30f,1.0,0.0,0.0,383.0,24.0,0.0,24.0,22440.0,9.435,-22.5,-567.0,544.4,True,24.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+203459,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,150.0,4.0,0.0,4.0,397.0,0.31,-360.6,-665.3,304.6,False,8.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+203500,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,225.0,16.0,0.0,16.0,8357.0,5.81,-107.1,-618.8,511.8,True,21.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+203536,SIEMENS,B30f,2.0,0.0,0.0,153.0,15.0,0.0,15.0,5763.0,5.264,-11.6,-395.7,384.1,True,27.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+203581,SIEMENS,B30f,2.0,0.0,0.0,176.0,12.0,0.0,12.0,2734.0,1.6,-82.9,-612.1,529.2,True,45.2,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,
+203607,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.427,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.43 mm off CT slices)
+203759,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,266.0,41.0,1.0,40.0,4208.0,2.496,-76.2,-624.6,548.5,True,160.0,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Nodule - Lower lobe of right lung | Lesion 3 - Nodule - Lower lobe of right lung,EXCLUDE,1 mask frames reference missing CT slices
+203769,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,155.0,8.0,0.0,8.0,1846.0,1.917,-39.3,-809.5,770.2,True,16.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+203791,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,180.0,8.0,0.0,8.0,1181.0,1.46,-584.0,-765.2,181.2,False,16.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+203861,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.607,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.61 mm off CT slices)
+203908,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,266.0,21.0,0.0,21.0,8070.0,4.788,-37.1,-317.1,280.0,True,26.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+204067,SIEMENS,B30f,2.0,0.0,0.0,176.0,5.0,0.0,5.0,1146.0,0.685,-114.8,-684.5,569.7,True,9.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+204197,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,226.0,28.0,0.0,24.0,34312.0,33.508,-30.2,-608.3,578.1,True,31.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+204421,SIEMENS,B30f,2.0,0.0,0.0,189.0,27.0,0.0,27.0,24916.0,14.797,-197.2,-493.8,296.6,True,68.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Hilum of left lung,PASS,
+204473,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,250.0,6.0,0.0,6.0,280.0,0.166,-477.2,-861.6,384.3,False,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+204694,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,262.0,14.0,0.0,14.0,1314.0,2.211,-206.8,-523.5,316.7,True,18.8,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+204711,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,174.0,20.0,0.0,20.0,17107.0,18.971,-27.2,-384.5,357.3,True,40.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+204870,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,251.0,5.0,0.0,5.0,306.0,0.229,-285.4,-664.9,379.5,True,7.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+204878,Philips,B,3.2,0.0,0.0,173.0,9.0,0.0,9.0,2687.0,3.792,-127.1,-609.0,481.9,True,19.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+204883,SIEMENS,B30f,2.0,0.0,0.0,165.0,4.0,0.0,4.0,1750.0,1.402,-462.5,-717.9,255.5,False,7.4,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+204909,Philips,C,2.0,0.0,0.0,184.0,43.0,0.0,43.0,157537.0,147.234,-85.7,-511.5,425.7,True,77.6,Lesion 1 - Tumor - Hilum of left lung,PASS,
+205046,SIEMENS,B30f,0.75,0.0,0.0,197.0,9.0,0.0,9.0,1733.0,0.668,-209.2,-646.1,436.9,True,15.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+205089,SIEMENS,B30f,2.0,0.0,0.0,189.0,21.0,0.0,21.0,6251.0,6.887,-89.5,-422.6,333.1,True,38.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+205283,SIEMENS,B50f,2.0,0.0,0.0,228.0,7.0,0.0,7.0,1418.0,1.449,-143.3,-613.4,470.1,True,11.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+205405,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,223.0,14.0,0.0,14.0,6830.0,5.941,-454.4,-479.8,25.4,False,18.8,Lesion 1 - Tumor - Upper lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+205418,TOSHIBA,FC10,2.0,0.0,0.001,205.0,4.0,0.0,4.0,225.0,0.21,-606.1,-868.4,262.3,False,7.1,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+205591,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,282.0,28.0,0.0,28.0,15129.0,19.752,-103.9,-462.1,358.2,True,36.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+205687,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,117.0,3.0,0.0,3.0,519.0,0.523,-246.1,-676.2,430.1,True,6.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+205714,SIEMENS,B30f,2.0,0.0,0.616,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.62 mm off CT slices)
+205781,SIEMENS,B30f,2.0,0.0,0.0,171.0,12.0,0.0,12.0,8247.0,5.075,-271.9,-677.6,405.7,True,21.8,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+205900,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,181.0,11.0,0.0,11.0,7531.0,7.821,-154.9,-676.1,521.1,True,22.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+206354,SIEMENS,B30f,2.0,0.0,0.0,172.0,9.0,0.0,9.0,3216.0,2.836,-223.6,-433.8,210.2,True,16.4,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+206359,SIEMENS,B30f,1.0,0.0,0.0,350.0,21.0,0.0,21.0,3624.0,1.228,-412.3,-732.6,320.2,False,42.0,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Upper lobe of left lung | Lesion 3 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+206543,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,164.0,16.0,0.0,16.0,8192.0,10.986,-211.1,-446.1,235.0,True,32.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+206564,SIEMENS,B30f,2.0,0.0,0.0,204.0,8.0,0.0,8.0,1160.0,0.895,-135.6,-767.7,632.1,True,14.6,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+206687,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,190.0,3.0,0.0,3.0,128.0,0.092,-389.7,-711.3,321.6,False,6.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+206732,Philips,C,3.2,0.0,0.0,165.0,3.0,0.0,3.0,807.0,1.139,-718.3,-806.7,88.5,False,6.4,Lesion 1 - Tumor - Upper lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+206737,Philips,B,3.2,0.0,0.0,150.0,8.0,0.0,8.0,2904.0,2.981,-139.9,-328.5,188.7,True,43.2,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Lower lobe of left lung,PASS,
+206870,SIEMENS,B30f,2.0,0.0,0.0,150.0,7.0,0.0,7.0,930.0,0.718,-60.4,-628.8,568.5,True,12.8,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+207206,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,182.0,10.0,0.0,9.0,3155.0,3.081,-148.5,-705.9,557.4,True,18.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+207286,Philips,D,1.3,0.0,0.0,281.0,31.0,0.0,31.0,76578.0,44.159,15.9,-766.1,782.0,True,40.3,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+207346,SIEMENS,B30f,2.0,0.0,0.0,181.0,3.0,0.0,3.0,199.0,0.135,-416.2,-776.5,360.4,False,5.6,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+207347,Philips,C,1.0,0.0,0.0,149.0,10.0,0.0,10.0,4097.0,1.702,-45.5,-546.4,500.9,True,19.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+207366,SIEMENS,B30f,2.0,0.0,0.0,251.0,29.0,0.0,29.0,24530.0,20.878,-105.1,-583.5,478.4,True,44.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+207391,TOSHIBA,FC10,2.0,0.0,0.001,161.0,5.0,0.0,5.0,404.0,0.524,-432.9,-766.5,333.6,False,9.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+207431,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,136.0,24.0,0.0,24.0,52551.0,47.852,0.5,-273.3,273.8,True,48.5,Lesion 1 - Tumor - Lower lobe of left lung | Lesion 2 - Tumor - Mediastinum,PASS,
+207526,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,180.0,15.0,0.0,15.0,19744.0,23.73,-4.5,-444.7,440.2,True,30.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+207584,,,,,,,,,,,,,,,,,,EXCLUDE,CT series not available in IDC
+207647,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,999.0,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+207691,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,137.0,5.0,0.0,5.0,981.0,0.776,-409.8,-632.7,222.9,False,10.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+207782,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,999.0,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+207786,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,155.0,9.0,0.0,8.0,2220.0,2.209,-185.4,-720.1,534.6,True,16.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+207830,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,147.0,7.0,0.0,7.0,1224.0,1.389,-45.1,-319.5,274.4,True,14.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+207857,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,250.0,11.0,0.0,11.0,1291.0,0.39,-288.5,-687.0,398.5,True,13.7,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+207869,SIEMENS,B30f,2.0,0.0,0.0,201.0,9.0,0.0,9.0,1354.0,1.539,-151.9,-564.4,412.5,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+207954,SIEMENS,B30f,2.0,0.0,0.0,162.0,26.0,0.0,26.0,51048.0,41.9,-34.5,-534.1,499.6,True,47.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+208294,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,159.0,17.0,0.0,17.0,10628.0,9.061,-189.8,-481.1,291.4,True,34.5,Lesion 1 - Tumor - Hilum of right lung,PASS,
+208430,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,214.0,19.0,0.0,19.0,12341.0,9.426,-103.5,-490.2,386.7,True,38.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+208446,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,265.0,7.0,0.0,7.0,892.0,0.653,-344.8,-629.1,284.3,False,8.7,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+208589,SIEMENS,B30f,2.0,0.0,0.0,166.0,5.0,0.0,5.0,488.0,0.351,-303.8,-709.9,406.1,False,9.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+208735,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,176.0,5.0,0.0,5.0,563.0,0.696,-234.5,-573.2,338.6,True,10.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+208792,Philips,D,1.3,0.0,0.0,252.0,42.0,0.0,42.0,43860.0,15.974,14.2,-621.4,635.6,True,54.6,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+208801,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,245.0,11.0,0.0,11.0,3665.0,1.612,-491.7,-720.4,228.7,False,13.7,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+208802,Philips,B,3.2,0.0,0.0,131.0,6.0,0.0,6.0,674.0,1.043,-154.7,-724.4,569.7,True,13.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+208944,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,155.0,10.0,0.0,10.0,1983.0,1.702,-359.6,-673.2,313.5,False,20.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+209029,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,225.0,18.0,0.0,18.0,9879.0,9.647,-212.7,-560.5,347.8,True,23.7,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+209095,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,208.0,19.0,0.0,19.0,1425.0,1.571,-272.8,-725.5,452.7,True,43.8,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Lower lobe of left lung | Lesion 3 - Tumor - Upper lobe of left lung,PASS,
+209116,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,351.0,24.0,0.0,23.0,10649.0,17.829,-75.1,-415.1,339.9,True,24.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+209119,SIEMENS,B30f,2.0,0.0,0.0,203.0,7.0,0.0,7.0,618.0,0.652,-310.6,-781.7,471.1,False,11.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+209140,SIEMENS,B30f,2.0,0.0,0.166,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.17 mm off CT slices)
+209184,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,247.0,10.0,0.0,10.0,2460.0,2.111,-226.3,-665.4,439.1,True,13.8,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+209297,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,248.0,4.0,0.0,4.0,333.0,0.131,-357.8,-640.6,282.8,False,5.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+209306,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,313.0,21.0,0.0,21.0,4755.0,2.903,-258.5,-677.2,418.7,True,22.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+209412,TOSHIBA,FC51,2.0,0.0,0.001,204.0,15.0,0.0,15.0,5925.0,7.603,-624.7,-831.4,206.7,False,25.8,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+209445,,,,,,,,,,,,,,,,,,EXCLUDE,CT series not available in IDC
+209512,SIEMENS,B30f,2.0,0.0,0.0,187.0,6.0,0.0,6.0,1015.0,1.004,-250.0,-605.8,355.8,True,11.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+209683,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.065,,,,,,,,,,,,,EXCLUDE,mask drawn on a different slice grid (frames up to 0.07 mm off CT slices)
+209831,SIEMENS,B30f,2.0,0.0,0.0,183.0,13.0,0.0,13.0,7930.0,8.283,-86.9,-607.3,520.4,True,23.6,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+209865,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,259.0,7.0,0.0,6.0,488.0,0.603,-218.2,-684.8,466.5,True,8.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+209874,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,160.0,7.0,0.0,7.0,1472.0,1.263,-179.7,-586.7,407.0,True,14.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+210090,SIEMENS,B30f,2.0,0.0,0.0,177.0,8.0,0.0,8.0,1993.0,2.104,-176.0,-585.6,409.6,True,14.6,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+210218,TOSHIBA,FC10,2.0,0.0,0.001,162.0,7.0,0.0,7.0,1435.0,1.93,-198.1,-734.5,536.4,True,12.8,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+210371,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,150.0,6.0,0.0,6.0,976.0,1.045,-197.5,-658.5,461.0,True,12.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+210419,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,176.0,15.0,0.0,15.0,2912.0,3.344,-295.9,-669.4,373.4,True,76.5,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung,PASS,
+210462,Philips,B,1.3,0.0,0.0,214.0,11.0,0.0,11.0,4267.0,1.671,-153.2,-626.3,473.1,True,14.3,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+210497,SIEMENS,B50f,1.0,0.0,0.0,402.0,28.0,0.0,27.0,6208.0,2.738,-143.4,-734.9,591.6,True,27.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+210581,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,144.0,5.0,0.0,5.0,605.0,0.748,-281.1,-641.6,360.5,True,10.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+210653,SIEMENS,B30f,2.0,0.0,0.0,245.0,3.0,0.0,3.0,247.0,0.296,280.9,-653.9,934.7,False,5.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+210754,SIEMENS,B30f,2.0,0.0,0.0,230.0,24.0,0.0,24.0,3919.0,4.138,-532.6,-694.2,161.6,False,56.0,Lesion 1 - Nodule - Lower lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung | Lesion 3 - Nodule - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+210806,SIEMENS,B30f,2.0,0.0,0.0,167.0,22.0,0.0,22.0,23682.0,21.381,-48.8,-296.3,247.5,True,75.8,Lesion 1 - Tumor - Hilum of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+210839,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,261.0,40.0,0.0,40.0,44147.0,23.361,-89.6,-503.8,414.1,True,50.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+211328,Philips,D,1.3,0.0,0.0,248.0,26.0,0.0,24.0,23478.0,12.147,21.7,-772.7,794.4,True,31.2,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+211494,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,258.0,5.0,0.0,5.0,447.0,0.552,-252.8,-550.5,297.6,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+211570,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,545.0,11.0,0.0,10.0,414.0,0.246,-344.1,-716.9,372.8,False,6.8,Lesion 1 - Nodule - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+211677,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,258.0,21.0,0.0,21.0,2586.0,4.775,-16.8,-343.7,326.9,True,27.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+211707,SIEMENS,B30f,2.0,0.0,0.0,212.0,5.0,0.0,5.0,434.0,0.374,-65.9,-636.7,570.8,True,9.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+211893,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,342.0,11.0,0.0,11.0,2173.0,1.672,-155.0,-480.0,325.0,True,11.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+211918,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,255.0,16.0,0.0,16.0,3860.0,3.77,-130.6,-661.1,530.6,True,21.2,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+211965,,,,,,,,,,,,,,,,,,EXCLUDE,CT series not available in IDC
+212202,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,155.0,8.0,0.0,8.0,591.0,0.814,-537.7,-758.4,220.8,False,16.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+212222,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,266.0,8.0,0.0,8.0,750.0,0.732,-313.3,-519.8,206.5,False,11.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+212293,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,179.0,7.0,0.0,7.0,2356.0,3.667,-167.7,-705.2,537.5,True,14.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+212359,TOSHIBA,FC10,2.0,0.0,0.001,166.0,3.0,0.0,3.0,189.0,0.113,-383.3,-675.1,291.8,False,5.4,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+212379,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,233.0,14.0,0.0,14.0,5267.0,5.807,-170.3,-715.6,545.2,True,18.8,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+212419,SIEMENS,B50f,2.0,0.0,0.0,252.0,21.0,0.0,21.0,6897.0,5.73,-51.4,-484.8,433.3,True,22.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+212522,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,168.0,4.0,0.0,4.0,463.0,0.572,-101.5,-517.7,416.2,True,8.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+212527,SIEMENS,B30f,2.0,0.0,0.0,175.0,11.0,0.0,11.0,1100.0,0.786,-183.6,-693.6,510.0,True,77.6,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,
+212587,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,275.0,15.0,0.0,15.0,1771.0,0.883,-81.6,-461.3,379.7,True,18.7,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+212615,Philips,D,1.3,0.0,0.0,220.0,28.0,0.0,28.0,63309.0,26.041,21.8,-443.8,465.6,True,36.4,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Nodule - Lower lobe of left lung,PASS,
+212718,SIEMENS,B30f,2.0,0.0,0.0,225.0,27.0,0.0,27.0,23764.0,16.536,-176.8,-522.6,345.8,True,44.0,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Lower lobe of left lung | Lesion 3 - Tumor - Upper lobe of right lung | Lesion 4 - Tumor - Upper lobe of right lung | Lesion 5 - Tumor - Upper lobe of right lung,PASS,
+212819,SIEMENS,B30f,1.0,0.0,0.0,385.0,18.0,0.0,18.0,7418.0,4.711,-51.2,-552.5,501.2,True,18.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+212863,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,181.0,15.0,0.0,15.0,11817.0,7.405,-2.2,-250.8,248.6,True,29.2,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+212869,GE MEDICAL SYSTEMS,BONE,1.2,0.0,0.0,241.0,9.0,0.0,9.0,480.0,0.263,-171.0,-555.0,384.0,True,24.9,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung,PASS,
+212900,SIEMENS,B50f,2.0,0.0,0.0,290.0,24.0,0.0,24.0,19356.0,13.291,-62.9,-656.7,593.8,True,25.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+213046,SIEMENS,B50f,1.0,0.0,0.0,343.0,18.0,0.0,18.0,4383.0,2.048,-56.3,-775.7,719.4,True,18.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+213413,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,285.0,9.0,0.0,9.0,1455.0,1.604,-751.3,-843.0,91.7,False,12.5,Lesion 1 - Tumor - Upper lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+213439,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,253.0,74.0,0.0,74.0,510366.0,201.938,-268.2,-552.0,283.8,True,120.0,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Hilum of right lung | Lesion 3 - Tumor - Upper lobe of right lung | Lesion 4 - Tumor - Upper lobe of right lung,PASS,
+213442,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,253.0,14.0,0.0,14.0,4580.0,6.989,0.9,-288.0,288.9,True,18.8,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+213485,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,166.0,4.0,0.0,4.0,300.0,0.371,-267.9,-860.2,592.3,True,8.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+213544,SIEMENS,B30f,2.0,0.0,0.0,225.0,9.0,0.0,9.0,1246.0,1.112,-154.1,-689.9,535.8,True,14.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+213630,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,195.0,6.0,0.0,6.0,503.0,0.605,-318.5,-569.9,251.4,False,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+213733,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,293.0,6.0,0.0,6.0,803.0,0.391,-67.4,-590.7,523.3,True,7.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+213734,SIEMENS,B30f,2.0,0.0,0.0,199.0,8.0,0.0,8.0,785.0,0.504,-252.2,-630.5,378.3,True,113.6,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Nodule - Upper lobe of left lung,PASS,
+213753,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,157.0,16.0,0.0,16.0,4630.0,3.511,-114.7,-660.2,545.4,True,32.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+213754,SIEMENS,B50f,2.0,0.0,0.0,320.0,13.0,0.0,13.0,3539.0,2.271,-199.1,-705.0,505.9,True,14.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+213860,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,234.0,9.0,0.0,9.0,1034.0,1.074,-164.1,-700.6,536.5,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+213918,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,162.0,6.0,0.0,6.0,931.0,1.151,-378.9,-710.7,331.7,False,12.5,Lesion 1 - Nodule - Lower lobe of right lung | Lesion 2 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+213972,SIEMENS,B30f,2.0,0.0,0.0,226.0,22.0,0.0,21.0,15687.0,12.409,-19.2,-352.7,333.5,True,32.0,Lesion 1 - Tumor - Mediastinum,PASS,
+214227,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,148.0,3.0,0.0,3.0,177.0,0.141,-325.6,-681.7,356.1,False,6.5,Lesion 1 - Tumor - Unknown body region,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+214262,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,166.0,8.0,0.0,8.0,647.0,0.589,-340.0,-750.9,411.0,False,16.5,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+214350,Philips,C,2.0,0.0,0.0,146.0,16.0,0.0,16.0,9822.0,6.744,-75.8,-654.4,578.6,True,32.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214419,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,259.0,11.0,0.0,11.0,996.0,1.445,-179.3,-554.8,375.4,True,15.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214438,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,225.0,7.0,0.0,7.0,3209.0,2.754,-472.2,-331.8,-140.4,False,10.0,Lesion 1 - Tumor - Lower lobe of right lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+214472,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,323.0,23.0,0.0,23.0,4521.0,2.682,-108.7,-707.9,599.2,True,97.2,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Lower lobe of right lung,PASS,
+214553,SIEMENS,B30f,2.0,0.0,0.0,180.0,10.0,0.0,10.0,7563.0,5.193,-43.9,-437.4,393.5,True,18.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+214571,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,241.0,21.0,0.0,21.0,7005.0,2.983,-138.3,-541.5,403.3,True,108.7,Lesion 1 - Tumor - Lower lobe of right lung | Lesion 2 - Tumor - Upper lobe of left lung,PASS,
+214572,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,265.0,9.0,0.0,9.0,679.0,0.749,-97.4,-804.3,706.9,True,12.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214640,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,223.0,9.0,0.0,9.0,357.0,0.236,-321.5,-696.2,374.7,False,11.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+214683,SIEMENS,B30f,1.0,0.0,0.0,269.0,26.0,0.0,26.0,8149.0,4.256,-187.5,-659.9,472.4,True,26.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+214700,SIEMENS,B30f,2.0,0.0,0.0,229.0,3.0,0.0,3.0,188.0,0.126,-247.1,-723.7,476.6,True,5.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214728,TOSHIBA,FC10,2.0,0.0,0.001,188.0,4.0,0.0,4.0,793.0,0.923,-112.0,-437.6,325.6,True,7.4,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214812,SIEMENS,B50f,2.0,0.0,0.0,210.0,24.0,0.0,24.0,11611.0,10.728,-133.8,-737.3,603.4,True,36.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+214822,Philips,C,2.0,0.0,0.0,155.0,7.0,0.0,7.0,2093.0,1.574,-226.1,-612.6,386.5,True,12.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+214907,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,234.0,12.0,0.0,12.0,2186.0,2.702,-388.6,-711.8,323.2,False,16.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+214923,SIEMENS,B50f,1.0,0.0,0.0,201.0,8.0,0.0,8.0,910.0,0.425,-377.7,-730.1,352.3,False,8.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+214975,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,170.0,7.0,0.0,7.0,829.0,1.142,-190.1,-681.5,491.4,True,14.5,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+215002,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,341.0,98.0,0.0,98.0,188879.0,83.09,32.2,-47.1,79.3,True,61.8,Lesion 1 - Tumor - Lower lobe of left lung,REVIEW,low tumor-vs-surround contrast (possible misalignment)
+215101,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,164.0,11.0,0.0,11.0,1447.0,1.788,-327.1,-778.1,451.0,False,22.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+215151,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,230.0,8.0,0.0,8.0,2735.0,3.38,-542.4,-798.2,255.7,False,11.2,Lesion 1 - Tumor - Middle lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+215290,SIEMENS,B30f,1.0,0.0,0.0,309.0,11.0,0.0,11.0,1666.0,0.58,-200.7,-562.2,361.4,True,11.0,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+215311,Philips,C,2.0,0.0,0.0,185.0,27.0,0.0,27.0,34060.0,33.677,-23.4,-277.6,254.2,True,48.8,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+215325,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,238.0,6.0,0.0,6.0,1004.0,0.381,-356.4,-537.7,181.4,False,7.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+215394,SIEMENS,B30f,2.0,0.0,0.0,203.0,13.0,0.0,13.0,4116.0,2.444,-300.3,-734.2,433.9,False,23.6,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+215463,SIEMENS,B30f,1.0,0.0,0.0,268.0,19.0,0.0,19.0,11361.0,3.797,-109.4,-662.1,552.7,True,19.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+215585,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,171.0,15.0,0.0,15.0,26545.0,19.847,-46.2,-567.7,521.5,True,30.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+215677,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,253.0,15.0,0.0,15.0,8160.0,8.996,-134.0,-627.4,493.3,True,20.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+215816,GE MEDICAL SYSTEMS,LUNG,2.5,0.0,0.0,139.0,6.0,0.0,6.0,1918.0,1.85,-34.6,-779.8,745.1,True,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+215825,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,245.0,22.0,0.0,22.0,12943.0,8.199,-69.7,-442.9,373.2,True,27.4,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+215930,Philips,C,3.2,0.0,0.0,193.0,13.0,0.0,13.0,4981.0,4.498,-165.0,-634.0,469.0,True,22.4,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+215998,SIEMENS,B30f,1.0,0.0,0.0,328.0,32.0,0.0,32.0,33111.0,10.188,-49.8,-600.6,550.8,True,32.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+216157,GE MEDICAL SYSTEMS,BONE,2.0,0.0,0.0,181.0,13.0,0.0,13.0,6459.0,7.116,-147.6,-648.3,500.8,True,26.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+216160,TOSHIBA,FC10,2.0,0.0,0.001,184.0,6.0,0.0,6.0,376.0,0.391,-266.6,-738.9,472.3,True,10.5,Lesion 1 - Tumor - Middle lobe of right lung,PASS,
+216238,GE MEDICAL SYSTEMS,BONE,2.5,0.0,0.0,261.0,4.0,0.0,4.0,758.0,0.527,-473.6,-767.8,294.2,False,6.2,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+216370,TOSHIBA,FC10,2.0,0.0,0.001,183.0,8.0,0.0,8.0,2081.0,1.626,-386.9,-639.9,253.0,False,13.9,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+216395,Philips,D,1.3,0.0,0.0,248.0,6.0,0.0,6.0,382.0,0.241,-67.0,-718.3,651.2,True,7.8,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+216399,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,139.0,16.0,0.0,16.0,7330.0,6.718,-160.1,-622.6,462.5,True,32.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+216422,SIEMENS,B30f,2.0,0.0,0.0,177.0,29.0,0.0,29.0,9338.0,6.412,-342.1,-695.1,353.0,False,104.6,Lesion 1 - Nodule - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung | Lesion 3 - Nodule - Upper lobe of right lung | Lesion 4 - Tumor - Lower lobe of right lung | Lesion 5 - Nodule - Lower lobe of right lung | Lesion 6 - Nodule - Lower lobe of right lung | Lesion 7 - Nodule - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+216622,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,145.0,7.0,0.0,7.0,1352.0,1.011,-281.3,-665.0,383.7,True,14.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+216730,TOSHIBA,FC10,2.0,0.0,0.001,181.0,8.0,0.0,8.0,1792.0,1.672,-249.1,-635.5,386.4,True,14.6,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+216793,SIEMENS,B50f,2.0,0.0,0.0,261.0,29.0,0.0,27.0,17606.0,12.908,-48.7,-575.8,527.1,True,29.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+216841,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,247.0,33.0,0.0,33.0,11997.0,5.042,-100.4,-614.8,514.4,True,41.2,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+216940,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,255.0,3.0,0.0,3.0,127.0,0.075,-375.4,-683.8,308.4,False,3.7,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+216978,Philips,C,2.0,0.0,0.0,168.0,12.0,0.0,12.0,1016.0,1.005,-217.3,-618.1,400.8,True,21.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+217121,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,172.0,4.0,0.0,4.0,194.0,0.245,-379.3,-718.2,338.9,False,8.5,Lesion 1 - Tumor - Lower lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+217203,SIEMENS,B30f,2.0,0.0,0.0,186.0,11.0,0.0,11.0,4664.0,3.875,-92.1,-519.0,426.9,True,20.0,Lesion 1 - Tumor - Lower lobe of left lung,PASS,
+217245,SIEMENS,B30f,2.0,0.0,0.0,220.0,19.0,0.0,19.0,3648.0,3.255,-236.3,-623.9,387.6,True,29.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+217438,SIEMENS,B30f,2.0,0.0,0.0,174.0,11.0,0.0,11.0,2961.0,1.784,-152.0,-700.9,548.9,True,20.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+217482,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,128.0,5.0,0.0,5.0,658.0,0.639,-347.5,-702.0,354.5,False,12.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+217501,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,263.0,21.0,0.0,21.0,10492.0,16.01,-46.0,-608.3,562.3,True,27.5,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+217756,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,177.0,5.0,0.0,5.0,311.0,0.384,-285.1,-724.4,439.3,True,10.5,Lesion 1 - Tumor - Upper lobe of left lung,PASS,
+217780,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,233.0,99.0,0.0,99.0,614740.0,846.563,-29.7,-249.3,219.6,True,178.8,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Upper lobe of right lung | Lesion 3 - Tumor - Lower lobe of right lung,PASS,
+217877,SIEMENS,B30f,2.0,0.0,0.0,209.0,10.0,0.0,10.0,1470.0,1.453,-430.6,-719.4,288.9,False,18.2,Lesion 1 - Tumor - Upper lobe of left lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+217951,SIEMENS,B30f,2.0,0.0,0.0,177.0,7.0,0.0,7.0,1950.0,1.339,-557.9,-757.1,199.2,False,11.0,Lesion 1 - Tumor - Lower lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+218013,SIEMENS,B50f,2.0,0.0,0.0,315.0,8.0,0.0,8.0,1645.0,1.285,-135.2,-644.2,509.0,True,9.0,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+218035,TOSHIBA,FC10,2.0,0.0,0.001,188.0,5.0,0.0,5.0,4457.0,5.994,-176.8,-437.1,260.3,True,9.2,Lesion 1 - Tumor - Lower lobe of right lung,PASS,
+218307,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,254.0,6.0,0.0,6.0,514.0,0.635,-336.8,-664.4,327.5,False,8.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+218357,GE MEDICAL SYSTEMS,STANDARD,1.2,0.0,0.0,426.0,46.0,0.0,46.0,36314.0,26.597,8.2,-367.3,375.5,True,33.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,
+218368,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,224.0,38.0,0.0,36.0,11025.0,12.154,-245.7,-642.8,397.2,True,158.8,Lesion 1 - Tumor - Upper lobe of left lung | Lesion 2 - Tumor - Lower lobe of right lung,PASS,
+218391,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,282.0,30.0,0.0,30.0,7262.0,8.976,-446.2,-670.2,224.1,False,88.7,Lesion 1 - Tumor - Upper lobe of right lung | Lesion 2 - Nodule - Upper lobe of right lung,PASS,outside pre-specified HU range but strong contrast (likely ground-glass)
+218510,GE MEDICAL SYSTEMS,STANDARD,2.5,0.0,0.0,248.0,18.0,0.0,18.0,2379.0,3.276,-166.3,-727.8,561.5,True,23.8,Lesion 1 - Tumor - Upper lobe of right lung,PASS,

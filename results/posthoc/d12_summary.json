@@ -1,0 +1,10 @@
+{
+  "label": "POST-HOC (D12)",
+  "n": 71,
+  "slab_dice_mean": 0.6129,
+  "tumour_slice_dice_mean": 0.6074,
+  "tumour_slice_dice_CI": [
+    0.5702,
+    0.6433
+  ]
+}

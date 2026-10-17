@@ -1,0 +1,46 @@
+type,patient_id,series,reason
+mask,103359,,mask drawn on a different slice grid (frames up to 0.64 mm off CT slices)
+mask,109462,,CT series not available in IDC
+mask,112285,,mask drawn on a different slice grid (frames up to 0.74 mm off CT slices)
+mask,112956,,mask drawn on a different slice grid (frames up to 0.46 mm off CT slices)
+mask,118553,,low tumor-vs-surround contrast (possible misalignment)
+mask,121333,,low tumor-vs-surround contrast (possible misalignment)
+mask,121895,,mask drawn on a different slice grid (frames up to 0.72 mm off CT slices)
+mask,122025,,mask drawn on a different slice grid (frames up to 0.90 mm off CT slices)
+mask,126576,,CT series not available in IDC
+mask,127890,,mask drawn on a different slice grid (frames up to 0.33 mm off CT slices)
+mask,133076,,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+mask,133317,,mask drawn on a different slice grid (frames up to 0.32 mm off CT slices)
+mask,200397,,low tumor-vs-surround contrast (possible misalignment)
+mask,200683,,mask drawn on a different slice grid (frames up to 0.75 mm off CT slices)
+mask,201938,,mask drawn on a different slice grid (frames up to 0.14 mm off CT slices)
+mask,202128,,mask drawn on a different slice grid (frames up to 0.31 mm off CT slices)
+mask,202165,,mask drawn on a different slice grid (frames up to 0.14 mm off CT slices)
+mask,203607,,mask drawn on a different slice grid (frames up to 0.43 mm off CT slices)
+mask,203759,,1 mask frames reference missing CT slices
+mask,203861,,mask drawn on a different slice grid (frames up to 0.61 mm off CT slices)
+mask,205405,,low tumor-vs-surround contrast (possible misalignment)
+mask,205714,,mask drawn on a different slice grid (frames up to 0.62 mm off CT slices)
+mask,206732,,low tumor-vs-surround contrast (possible misalignment)
+mask,207584,,CT series not available in IDC
+mask,207647,,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+mask,207782,,mask drawn on a different slice grid (frames up to 999.00 mm off CT slices)
+mask,209140,,mask drawn on a different slice grid (frames up to 0.17 mm off CT slices)
+mask,209445,,CT series not available in IDC
+mask,209683,,mask drawn on a different slice grid (frames up to 0.07 mm off CT slices)
+mask,211965,,CT series not available in IDC
+mask,213413,,low tumor-vs-surround contrast (possible misalignment)
+mask,214438,,low tumor-vs-surround contrast (possible misalignment)
+mask,215002,,low tumor-vs-surround contrast (possible misalignment)
+pair,104999,1.2.840.113654.2.55.294129649021418365213076141574826226120,slice positions differ
+pair,108420,1.2.840.113654.2.55.91250433110189097842547776568996408460,slice positions differ
+pair,116176,1.2.840.113654.2.55.151609145404393538590054193612894313530,spacing/origin/orientation differ
+pair,123515,1.2.840.113654.2.55.201808621916600371210394894961318741174,spacing/origin/orientation differ
+pair,206543,1.3.6.1.4.1.14519.5.2.1.7009.9004.119980317331343374437046869088,slice positions differ
+pair,208430,1.3.6.1.4.1.14519.5.2.1.7009.9004.284425962547849880415592624989,slice positions differ
+pair,210419,1.3.6.1.4.1.14519.5.2.1.7009.9004.272737823943363602096481510761,spacing/origin/orientation differ
+pair,211328,1.3.6.1.4.1.14519.5.2.1.7009.9004.248778583292788158198559561174,spacing/origin/orientation differ
+pair,212202,1.3.6.1.4.1.14519.5.2.1.7009.9004.113908580966596974214121596044,spacing/origin/orientation differ
+pair,212293,1.3.6.1.4.1.14519.5.2.1.7009.9004.195951182982591507867509034316,spacing/origin/orientation differ
+pair,213485,1.3.6.1.4.1.14519.5.2.1.7009.9004.220601038166775429284339524244,spacing/origin/orientation differ
+pair,217121,1.3.6.1.4.1.14519.5.2.1.7009.9004.402554333973625474898027870975,slice positions differ

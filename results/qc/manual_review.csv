@@ -1,0 +1,10 @@
+patient_id,automated_flag,decision,reviewer,date,note
+118553,low contrast,EXCLUDE,Investigator (confirmed 2026-10-06),2026-09-29,Small rectangular outline against chest wall; no clearly visible nodule inside; excluded conservatively
+121333,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Outline on a cavitating lesion; air inside the cavity lowers mean HU
+121895,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Faint pure ground-glass nodule; outline on the nodule
+200397,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Large pure ground-glass lesion; outline follows it
+205405,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Subpleural ground-glass lesion; outline on the lesion
+206732,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Faint ground-glass nodule; outline on the nodule
+213413,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Faint ground-glass nodule on noisy LUNG-filter image; outline on the nodule
+214438,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Nodule at lung base with motion streaks; ring includes diaphragm/liver so contrast is negative
+215002,low contrast,KEEP,Investigator (confirmed 2026-10-06),2026-09-29,Large (83 mL) mass abutting mediastinum; ring is soft tissue so contrast is low

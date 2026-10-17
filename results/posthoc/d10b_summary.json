@@ -1,0 +1,65 @@
+{
+  "label": "POST-HOC (D10B)",
+  "test_71": {
+    "n": 71,
+    "medsam": 0.3967,
+    "box_guided": 0.7468,
+    "nnunet": 0.7198,
+    "box_minus_medsam": 0.3501,
+    "box_minus_medsam_CI": [
+      0.3004,
+      0.3988
+    ],
+    "box_vs_medsam_p": 7.296842760922377e-13
+  },
+  "heldout_181": {
+    "n": 181,
+    "medsam": 0.3737,
+    "box_guided": 0.7441,
+    "nnunet": 0.6985,
+    "box_minus_medsam": 0.3704,
+    "box_minus_medsam_CI": [
+      0.3375,
+      0.4041
+    ],
+    "box_vs_medsam_p": 2.3389341736772375e-30
+  },
+  "reader_35": {
+    "n": 35,
+    "medsam": 0.3502,
+    "box_guided": 0.7813,
+    "nnunet": 0.7402,
+    "box_minus_medsam": 0.4311,
+    "box_minus_medsam_CI": [
+      0.3612,
+      0.4991
+    ],
+    "box_vs_medsam_p": 1.1641532182693481e-10
+  },
+  "aim1_110": {
+    "n": 110,
+    "dice_A": 0.3589,
+    "dice_B": 0.3538,
+    "frac_gt25": 0.0455,
+    "n_volA_positive": 110,
+    "agreement": {
+      "n": 110,
+      "excluded_zero_volume": 0,
+      "bias_pct": 1.64,
+      "bias_pct_CI": [
+        -0.05,
+        3.36
+      ],
+      "loa_pct": [
+        -15.02,
+        21.56
+      ],
+      "RC_pct": 19.59,
+      "RC_pct_CI": [
+        15.67,
+        23.28
+      ],
+      "wCV_pct": 6.46
+    }
+  }
+}

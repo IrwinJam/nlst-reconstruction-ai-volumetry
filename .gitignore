@@ -1,0 +1,17 @@
+# Large, re-creatable data (see README)
+raw/
+cache/
+# Model weights and bulky run artifacts
+results/**/*.pt
+*.npz
+# Download/runtime logs
+*.log
+__pycache__/
+# downloaded third-party annotation files (re-creatable from NCI IDC / TCIA)
+raw/
+# nnU-Net working data (re-creatable with code/prepare_nnunet.py); keep only the split file
+nnunet/*
+!nnunet/splits_final.json
+results/eval_dryrun/
+.venv_medsam/
+models/

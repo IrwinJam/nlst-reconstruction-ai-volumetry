@@ -1,0 +1,32 @@
+{
+  "sybil_best_match_per_patient": {
+    "aim1": {
+      "same series as expert mask": 68,
+      "same-scan twin (Aim-1 pair)": 46,
+      "same study, different series": 2
+    },
+    "train": {
+      "same series as expert mask": 215,
+      "same study, different series": 48,
+      "different study (other screening round)": 1
+    },
+    "val": {
+      "same series as expert mask": 31,
+      "same study, different series": 9
+    },
+    "test": {
+      "same series as expert mask": 77,
+      "same study, different series": 22
+    }
+  },
+  "sybil_patients_with_box_on_our_scan_or_twin": 437,
+  "lidc501_patients_overlapping": 140,
+  "lidc501_by_group": {
+    "train": 73,
+    "aim1": 29,
+    "test": 29,
+    "val": 9
+  },
+  "lidc501_same_series_as_mask": 89,
+  "lidc501_on_same_scan_twin": 18
+}

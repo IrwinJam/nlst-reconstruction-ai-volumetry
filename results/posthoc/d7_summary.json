@@ -1,0 +1,24 @@
+{
+  "label": "POST-HOC (D7)",
+  "n_patients": 110,
+  "unet_3seed_mean": {
+    "n": 110,
+    "frac_total_gt25": 0.2545,
+    "n_total_gt25": 28,
+    "n_inside_evaluable": 108,
+    "frac_inside_gt25": 0.1389,
+    "n_inside_gt25": 15,
+    "share_of_abs_change_outside_region": 0.6637,
+    "patients_with_any_outside_volume_A_or_B": 108
+  },
+  "nnunet": {
+    "n": 106,
+    "frac_total_gt25": 0.1509,
+    "n_total_gt25": 16,
+    "n_inside_evaluable": 104,
+    "frac_inside_gt25": 0.1346,
+    "n_inside_gt25": 14,
+    "share_of_abs_change_outside_region": 0.1833,
+    "patients_with_any_outside_volume_A_or_B": 51
+  }
+}

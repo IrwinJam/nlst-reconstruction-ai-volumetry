@@ -1,0 +1,259 @@
+{
+  "label": "POST-HOC (D8)",
+  "c_volumetric_agreement": {
+    "unet_all": {
+      "n": 128,
+      "excluded_zero_volume": 0,
+      "bias_pct": 2.43,
+      "bias_pct_CI": [
+        -6.84,
+        12.69
+      ],
+      "loa_pct": [
+        -65.21,
+        201.55
+      ],
+      "RC_pct": 194.19,
+      "RC_pct_CI": [
+        106.54,
+        301.84
+      ],
+      "wCV_pct": 40.48
+    },
+    "nnunet_all": {
+      "n": 120,
+      "excluded_zero_volume": 8,
+      "bias_pct": -1.05,
+      "bias_pct_CI": [
+        -6.69,
+        5.09
+      ],
+      "loa_pct": [
+        -48.2,
+        89.03
+      ],
+      "RC_pct": 90.95,
+      "RC_pct_CI": [
+        49.33,
+        137.75
+      ],
+      "wCV_pct": 23.67
+    },
+    "unet_prompt110": {
+      "n": 110,
+      "excluded_zero_volume": 0,
+      "bias_pct": 3.59,
+      "bias_pct_CI": [
+        -7.3,
+        15.51
+      ],
+      "loa_pct": [
+        -67.47,
+        229.92
+      ],
+      "RC_pct": 218.23,
+      "RC_pct_CI": [
+        117.45,
+        346.49
+      ],
+      "wCV_pct": 43.68
+    },
+    "box_prompt110": {
+      "n": 110,
+      "excluded_zero_volume": 0,
+      "bias_pct": -2.61,
+      "bias_pct_CI": [
+        -4.58,
+        -0.97
+      ],
+      "loa_pct": [
+        -19.8,
+        18.28
+      ],
+      "RC_pct": 21.43,
+      "RC_pct_CI": [
+        10.53,
+        31.61
+      ],
+      "wCV_pct": 7.02
+    }
+  },
+  "d_size_strata": {
+    "unet": {
+      "<1 mL": {
+        "n": 51,
+        "frac_gt25": 0.3529,
+        "median_abs_pct": 16.7494
+      },
+      "1-5 mL": {
+        "n": 40,
+        "frac_gt25": 0.2,
+        "median_abs_pct": 4.7273
+      },
+      ">5 mL": {
+        "n": 37,
+        "frac_gt25": 0.0811,
+        "median_abs_pct": 4.7116
+      }
+    },
+    "nnunet": {
+      "<1 mL": {
+        "n": 49,
+        "frac_gt25": 0.2245,
+        "median_abs_pct": 6.25
+      },
+      "1-5 mL": {
+        "n": 38,
+        "frac_gt25": 0.0526,
+        "median_abs_pct": 3.4498
+      },
+      ">5 mL": {
+        "n": 37,
+        "frac_gt25": 0.1622,
+        "median_abs_pct": 2.8487
+      }
+    }
+  },
+  "g_box_dice_between_recons": {
+    "n": 110,
+    "dice_A": 0.7423,
+    "dice_B": 0.7378,
+    "diff": -0.0045,
+    "CI": [
+      -0.0101,
+      0.0003
+    ],
+    "wilcoxon_p": 0.8241725830035829
+  },
+  "a_same_patient": {
+    "test_71": {
+      "n": 71,
+      "dice_auto": 0.634,
+      "dice_crop": 0.6778,
+      "dice_box": 0.7468,
+      "nn": 0.7198,
+      "nn_crop": 0.702,
+      "box_minus_nn": 0.0271,
+      "box_minus_nn_CI": [
+        -0.0234,
+        0.0809
+      ],
+      "box_vs_nn_p": 0.6715600868035183,
+      "box_minus_nncrop": 0.0449,
+      "box_minus_nncrop_CI": [
+        0.0025,
+        0.0934
+      ],
+      "box_vs_nncrop_p": 0.5705417959435383
+    },
+    "heldout_181": {
+      "n": 181,
+      "dice_auto": 0.6151,
+      "dice_crop": 0.6745,
+      "dice_box": 0.7441,
+      "nn": 0.6985,
+      "nn_crop": 0.6914,
+      "box_minus_nn": 0.0456,
+      "box_minus_nn_CI": [
+        0.0129,
+        0.0801
+      ],
+      "box_vs_nn_p": 0.6386155022427651,
+      "box_minus_nncrop": 0.0527,
+      "box_minus_nncrop_CI": [
+        0.0243,
+        0.0836
+      ],
+      "box_vs_nncrop_p": 0.9836109097172272
+    },
+    "reader_35": {
+      "n": 35,
+      "dice_auto": 0.6086,
+      "dice_crop": 0.7456,
+      "dice_box": 0.7813,
+      "nn": 0.7402,
+      "nn_crop": 0.7868,
+      "box_minus_nn": 0.0411,
+      "box_minus_nn_CI": [
+        -0.0104,
+        0.1046
+      ],
+      "box_vs_nn_p": 0.8020407048752531,
+      "box_minus_nncrop": -0.0055,
+      "box_minus_nncrop_CI": [
+        -0.0468,
+        0.0497
+      ],
+      "box_vs_nncrop_p": 0.051460869144648314
+    }
+  },
+  "b_unet_full_test": {
+    "n": 112,
+    "mean": 0.6266,
+    "CI": [
+      0.5783,
+      0.6723
+    ],
+    "per_seed_mean_sd": [
+      0.6266,
+      0.0089
+    ],
+    "by_vendor": {
+      "GE MEDICAL SYSTEMS": 0.5715,
+      "Philips": 0.6655,
+      "SIEMENS": 0.6647,
+      "TOSHIBA": 0.6832
+    }
+  },
+  "e_prompt_selection": {
+    "n_with": 71,
+    "n_without": 41,
+    "expert_ml_median": {
+      "with": 2.269,
+      "without": 1.087
+    },
+    "expert_ml_p": 0.00536262965211756,
+    "auto_dice_mean": {
+      "with": 0.634,
+      "without": 0.6138
+    },
+    "auto_dice_p": 0.4741492254385403,
+    "vendor_counts": {
+      "GE MEDICAL SYSTEMS": {
+        "with": 35,
+        "without": 13
+      },
+      "Philips": {
+        "with": 5,
+        "without": 3
+      },
+      "SIEMENS": {
+        "with": 21,
+        "without": 24
+      },
+      "TOSHIBA": {
+        "with": 10,
+        "without": 1
+      }
+    },
+    "vendor_chi2_p": 0.012319982341296479
+  },
+  "f_size_matched_control": {
+    "n_GE_test": 48,
+    "size_matched_allvendor": 0.4734,
+    "lovo_GE": 0.438,
+    "full_allvendor_s0": 0.5846,
+    "sizematched_minus_lovo": 0.0354,
+    "sizematched_minus_lovo_CI": [
+      -0.0171,
+      0.0918
+    ],
+    "sizematched_vs_lovo_p": 0.16490789724395738,
+    "full_minus_sizematched": 0.1113,
+    "full_minus_sizematched_CI": [
+      0.0456,
+      0.1849
+    ],
+    "note": "gap attributable to vendor absence ~ sizematched - lovo; to training size ~ full - sizematched"
+  }
+}

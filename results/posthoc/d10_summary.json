@@ -1,0 +1,156 @@
+{
+  "label": "POST-HOC (D10)",
+  "a_paired_RC": {
+    "n_common": 103,
+    "RC_pct": {
+      "U-Net": 142.11,
+      "nnU-Net": 89.98,
+      "MedSAM (3D box)": 21.83,
+      "Box-guided U-Net": 11.87,
+      "MedSAM (per-slice boxes)": 18.66
+    },
+    "RC_CI": {
+      "U-Net": [
+        68.9,
+        238.31
+      ],
+      "nnU-Net": [
+        42.5,
+        142.28
+      ],
+      "MedSAM (3D box)": [
+        16.9,
+        26.92
+      ],
+      "Box-guided U-Net": [
+        8.68,
+        15.25
+      ],
+      "MedSAM (per-slice boxes)": [
+        14.67,
+        22.52
+      ]
+    },
+    "paired": {
+      "U-Net vs box": {
+        "ratio": 11.97,
+        "ratio_CI": [
+          6.68,
+          19.1
+        ],
+        "difference_pct_points": 130.24,
+        "difference_CI": [
+          58.78,
+          225.07
+        ]
+      },
+      "nnU-Net vs box": {
+        "ratio": 7.58,
+        "ratio_CI": [
+          3.62,
+          13.0
+        ],
+        "difference_pct_points": 78.11,
+        "difference_CI": [
+          31.17,
+          130.21
+        ]
+      },
+      "MedSAM (3D box) vs box": {
+        "ratio": 1.84,
+        "ratio_CI": [
+          1.28,
+          2.68
+        ],
+        "difference_pct_points": 9.96,
+        "difference_CI": [
+          3.95,
+          16.07
+        ]
+      },
+      "MedSAM (per-slice boxes) vs box": {
+        "ratio": 1.57,
+        "ratio_CI": [
+          1.1,
+          2.28
+        ],
+        "difference_pct_points": 6.79,
+        "difference_CI": [
+          1.45,
+          11.96
+        ]
+      }
+    }
+  },
+  "c_qualitative_picks": [
+    "204421",
+    "119326",
+    "123066",
+    "104182"
+  ],
+  "b_medsam_per_slice": {
+    "label": "POST-HOC (D10B)",
+    "test_71": {
+      "n": 71,
+      "medsam": 0.3967,
+      "box_guided": 0.7468,
+      "nnunet": 0.7198,
+      "box_minus_medsam": 0.3501,
+      "box_minus_medsam_CI": [
+        0.3004,
+        0.3988
+      ],
+      "box_vs_medsam_p": 7.296842760922377e-13
+    },
+    "heldout_181": {
+      "n": 181,
+      "medsam": 0.3737,
+      "box_guided": 0.7441,
+      "nnunet": 0.6985,
+      "box_minus_medsam": 0.3704,
+      "box_minus_medsam_CI": [
+        0.3375,
+        0.4041
+      ],
+      "box_vs_medsam_p": 2.3389341736772375e-30
+    },
+    "reader_35": {
+      "n": 35,
+      "medsam": 0.3502,
+      "box_guided": 0.7813,
+      "nnunet": 0.7402,
+      "box_minus_medsam": 0.4311,
+      "box_minus_medsam_CI": [
+        0.3612,
+        0.4991
+      ],
+      "box_vs_medsam_p": 1.1641532182693481e-10
+    },
+    "aim1_110": {
+      "n": 110,
+      "dice_A": 0.3589,
+      "dice_B": 0.3538,
+      "frac_gt25": 0.0455,
+      "n_volA_positive": 110,
+      "agreement": {
+        "n": 110,
+        "excluded_zero_volume": 0,
+        "bias_pct": 1.64,
+        "bias_pct_CI": [
+          -0.05,
+          3.36
+        ],
+        "loa_pct": [
+          -15.02,
+          21.56
+        ],
+        "RC_pct": 19.59,
+        "RC_pct_CI": [
+          15.67,
+          23.28
+        ],
+        "wCV_pct": 6.46
+      }
+    }
+  }
+}

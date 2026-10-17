@@ -1,0 +1,17 @@
+{
+  "patients": 107,
+  "reads": 428,
+  "status": {
+    "segmented": 406,
+    "missed": 22
+  },
+  "reads_with_notes": 0,
+  "nlstseg_vs_reader_dice_segmented_median": 0.7506,
+  "nlstseg_vs_reader_dice_segmented_mean": 0.7167,
+  "nlstseg_vs_reader_dice_all_reads_mean_(miss=0)": 0.6798,
+  "inter_reader_pairs": 592,
+  "inter_reader_dice_median": 0.7743,
+  "inter_reader_dice_mean": 0.7415,
+  "inter_reader_dice_per_patient_mean_then_median": 0.7608,
+  "patients_where_all_readers_segmented": 96
+}

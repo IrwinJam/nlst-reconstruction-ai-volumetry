@@ -1,0 +1,101 @@
+[09-30 00:38:37] stage maml seed 2 | train 290 val 44 patients | device cuda
+[09-30 00:38:37] MAML initialized from results/conv_s2/conv_best.pt
+[09-30 00:39:03] MAML it 50/4000 meta-loss 0.4921 [0.4 min]
+[09-30 00:39:28] MAML it 100/4000 meta-loss 0.1904 [0.8 min]
+[09-30 00:39:54] MAML it 150/4000 meta-loss 0.4687 [1.3 min]
+[09-30 00:40:20] MAML it 200/4000 meta-loss 0.2353 [1.7 min]
+[09-30 00:40:45] MAML it 250/4000 meta-loss 0.3248 [2.1 min]
+[09-30 00:41:38] MAML it 250 val Dice@k4 0.5581 (best 0.5581)
+[09-30 00:42:04] MAML it 300/4000 meta-loss 0.9375 [3.4 min]
+[09-30 00:42:29] MAML it 350/4000 meta-loss 0.3802 [3.8 min]
+[09-30 00:42:53] MAML it 400/4000 meta-loss 0.4003 [4.2 min]
+[09-30 00:43:18] MAML it 450/4000 meta-loss 0.3704 [4.7 min]
+[09-30 00:43:42] MAML it 500/4000 meta-loss 0.5229 [5.1 min]
+[09-30 00:44:35] MAML it 500 val Dice@k4 0.5524 (best 0.5581)
+[09-30 00:45:01] MAML it 550/4000 meta-loss 0.5302 [6.4 min]
+[09-30 00:45:26] MAML it 600/4000 meta-loss 0.3618 [6.8 min]
+[09-30 00:45:51] MAML it 650/4000 meta-loss 0.1974 [7.2 min]
+[09-30 00:46:16] MAML it 700/4000 meta-loss 0.3657 [7.6 min]
+[09-30 00:46:41] MAML it 750/4000 meta-loss 0.8876 [8.0 min]
+[09-30 00:47:34] MAML it 750 val Dice@k4 0.5242 (best 0.5581)
+[09-30 00:47:59] MAML it 800/4000 meta-loss 0.3107 [9.3 min]
+[09-30 00:48:23] MAML it 850/4000 meta-loss 0.3851 [9.7 min]
+[09-30 00:48:49] MAML it 900/4000 meta-loss 0.1619 [10.2 min]
+[09-30 00:49:15] MAML it 950/4000 meta-loss 0.4843 [10.6 min]
+[09-30 00:49:40] MAML it 1000/4000 meta-loss 0.3780 [11.0 min]
+[09-30 00:50:32] MAML it 1000 val Dice@k4 0.5248 (best 0.5581)
+[09-30 00:50:59] MAML it 1050/4000 meta-loss 0.3187 [12.3 min]
+[09-30 00:51:24] MAML it 1100/4000 meta-loss 0.2096 [12.8 min]
+[09-30 00:51:49] MAML it 1150/4000 meta-loss 0.0993 [13.2 min]
+[09-30 00:52:15] MAML it 1200/4000 meta-loss 0.5342 [13.6 min]
+[09-30 00:52:40] MAML it 1250/4000 meta-loss 0.1209 [14.0 min]
+[09-30 00:53:32] MAML it 1250 val Dice@k4 0.5300 (best 0.5581)
+[09-30 00:53:57] MAML it 1300/4000 meta-loss 0.5272 [15.3 min]
+[09-30 00:54:21] MAML it 1350/4000 meta-loss 0.2733 [15.7 min]
+[09-30 00:54:46] MAML it 1400/4000 meta-loss 0.1471 [16.1 min]
+[09-30 00:55:10] MAML it 1450/4000 meta-loss 0.2161 [16.5 min]
+[09-30 00:55:36] MAML it 1500/4000 meta-loss 0.2518 [17.0 min]
+[09-30 00:56:28] MAML it 1500 val Dice@k4 0.5225 (best 0.5581)
+[09-30 00:56:54] MAML it 1550/4000 meta-loss 0.3291 [18.3 min]
+[09-30 00:57:19] MAML it 1600/4000 meta-loss 0.7700 [18.7 min]
+[09-30 00:57:43] MAML it 1650/4000 meta-loss 0.2426 [19.1 min]
+[09-30 00:58:08] MAML it 1700/4000 meta-loss 0.3703 [19.5 min]
+[09-30 00:58:33] MAML it 1750/4000 meta-loss 0.4134 [19.9 min]
+[09-30 00:59:26] MAML it 1750 val Dice@k4 0.5326 (best 0.5581)
+[09-30 00:59:50] MAML it 1800/4000 meta-loss 0.1208 [21.2 min]
+[09-30 01:00:17] MAML it 1850/4000 meta-loss 0.3946 [21.6 min]
+[09-30 01:00:41] MAML it 1900/4000 meta-loss 0.3841 [22.0 min]
+[09-30 01:01:06] MAML it 1950/4000 meta-loss 0.1608 [22.5 min]
+[09-30 01:01:32] MAML it 2000/4000 meta-loss 0.3927 [22.9 min]
+[09-30 01:02:25] MAML it 2000 val Dice@k4 0.5468 (best 0.5581)
+[09-30 01:02:51] MAML it 2050/4000 meta-loss 0.2796 [24.2 min]
+[09-30 01:03:15] MAML it 2100/4000 meta-loss 0.4715 [24.6 min]
+[09-30 01:03:41] MAML it 2150/4000 meta-loss 0.2413 [25.0 min]
+[09-30 01:04:06] MAML it 2200/4000 meta-loss 0.5148 [25.5 min]
+[09-30 01:04:31] MAML it 2250/4000 meta-loss 0.2942 [25.9 min]
+[09-30 01:05:23] MAML it 2250 val Dice@k4 0.5355 (best 0.5581)
+[09-30 01:05:48] MAML it 2300/4000 meta-loss 0.3872 [27.2 min]
+[09-30 01:06:15] MAML it 2350/4000 meta-loss 0.4359 [27.6 min]
+[09-30 01:06:39] MAML it 2400/4000 meta-loss 0.5137 [28.0 min]
+[09-30 01:07:04] MAML it 2450/4000 meta-loss 0.1469 [28.4 min]
+[09-30 01:07:28] MAML it 2500/4000 meta-loss 0.3951 [28.8 min]
+[09-30 01:08:21] MAML it 2500 val Dice@k4 0.5451 (best 0.5581)
+[09-30 01:08:45] MAML it 2550/4000 meta-loss 0.4982 [30.1 min]
+[09-30 01:09:11] MAML it 2600/4000 meta-loss 0.6678 [30.5 min]
+[09-30 01:09:36] MAML it 2650/4000 meta-loss 0.3368 [31.0 min]
+[09-30 01:10:01] MAML it 2700/4000 meta-loss 0.3230 [31.4 min]
+[09-30 01:10:26] MAML it 2750/4000 meta-loss 0.3971 [31.8 min]
+[09-30 01:11:19] MAML it 2750 val Dice@k4 0.5898 (best 0.5898)
+[09-30 01:11:43] MAML it 2800/4000 meta-loss 0.2411 [33.1 min]
+[09-30 01:12:08] MAML it 2850/4000 meta-loss 0.4309 [33.5 min]
+[09-30 01:12:34] MAML it 2900/4000 meta-loss 0.1020 [33.9 min]
+[09-30 01:13:00] MAML it 2950/4000 meta-loss 0.5745 [34.4 min]
+[09-30 01:13:25] MAML it 3000/4000 meta-loss 0.3947 [34.8 min]
+[09-30 01:14:17] MAML it 3000 val Dice@k4 0.5333 (best 0.5898)
+[09-30 01:14:42] MAML it 3050/4000 meta-loss 0.3628 [36.1 min]
+[09-30 01:15:07] MAML it 3100/4000 meta-loss 0.3672 [36.5 min]
+[09-30 01:15:31] MAML it 3150/4000 meta-loss 0.4829 [36.9 min]
+[09-30 01:15:58] MAML it 3200/4000 meta-loss 0.5502 [37.3 min]
+[09-30 01:16:24] MAML it 3250/4000 meta-loss 0.5127 [37.8 min]
+[09-30 01:17:17] MAML it 3250 val Dice@k4 0.4989 (best 0.5898)
+[09-30 01:17:42] MAML it 3300/4000 meta-loss 0.2154 [39.1 min]
+[09-30 01:18:07] MAML it 3350/4000 meta-loss 0.0647 [39.5 min]
+[09-30 01:18:33] MAML it 3400/4000 meta-loss 0.1490 [39.9 min]
+[09-30 01:18:59] MAML it 3450/4000 meta-loss 0.5726 [40.3 min]
+[09-30 01:19:23] MAML it 3500/4000 meta-loss 0.0677 [40.7 min]
+[09-30 01:20:15] MAML it 3500 val Dice@k4 0.5525 (best 0.5898)
+[09-30 01:20:41] MAML it 3550/4000 meta-loss 0.2258 [42.0 min]
+[09-30 01:21:06] MAML it 3600/4000 meta-loss 0.1186 [42.5 min]
+[09-30 01:21:31] MAML it 3650/4000 meta-loss 0.3842 [42.9 min]
+[09-30 01:21:55] MAML it 3700/4000 meta-loss 0.3692 [43.3 min]
+[09-30 01:22:20] MAML it 3750/4000 meta-loss 0.1423 [43.7 min]
+[09-30 01:23:13] MAML it 3750 val Dice@k4 0.5235 (best 0.5898)
+[09-30 01:23:39] MAML it 3800/4000 meta-loss 0.1243 [45.0 min]
+[09-30 01:24:03] MAML it 3850/4000 meta-loss 0.5575 [45.4 min]
+[09-30 01:24:29] MAML it 3900/4000 meta-loss 0.3889 [45.8 min]
+[09-30 01:24:54] MAML it 3950/4000 meta-loss 0.6158 [46.3 min]
+[09-30 01:25:18] MAML it 4000/4000 meta-loss 0.1837 [46.7 min]
+[09-30 01:26:10] MAML it 4000 val Dice@k4 0.5247 (best 0.5898)
+[09-30 01:27:41] stage maml seed 2 | train 290 val 44 patients | device cuda
+[09-30 01:27:41] MAML initialized from results/conv_s2/conv_best.pt
+[09-30 01:27:42] MAML resume from iteration 4000 (best val Dice 0.5898)

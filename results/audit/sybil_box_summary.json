@@ -1,0 +1,13 @@
+{
+  "checked": 437,
+  "errors": 0,
+  "median_mask_inside_box": 1.0,
+  "median_slice_coverage": 1.0,
+  "usable_(>=80% mask inside box & >=50% slice coverage)": 397,
+  "usable_by_group": {
+    "train": 194,
+    "aim1": 105,
+    "test": 68,
+    "val": 30
+  }
+}

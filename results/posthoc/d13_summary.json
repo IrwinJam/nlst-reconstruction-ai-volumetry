@@ -1,0 +1,39 @@
+{
+  "label": "POST-HOC (D13)",
+  "n_common": 99,
+  "RC_pct": {
+    "U-Net cropped to prompt": 55.91,
+    "nnU-Net cropped to prompt": 104.36,
+    "Box-guided U-Net": 10.43
+  },
+  "RC_CI": {
+    "U-Net cropped to prompt": [
+      25.2,
+      85.89
+    ],
+    "nnU-Net cropped to prompt": [
+      32.55,
+      180.3
+    ],
+    "Box-guided U-Net": [
+      8.08,
+      12.69
+    ]
+  },
+  "ratio_to_box": {
+    "U-Net cropped to prompt": {
+      "ratio": 5.36,
+      "CI": [
+        2.46,
+        8.59
+      ]
+    },
+    "nnU-Net cropped to prompt": {
+      "ratio": 10.01,
+      "CI": [
+        3.17,
+        18.34
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "n_val_patients": 44,
+  "dice_slab_mean": 0.5829,
+  "dice_slab_median": 0.6564,
+  "dice_tumor_slices_mean": 0.6522,
+  "dice_roi_mean": 0.6856,
+  "resolution_ceiling_mean": 0.9439,
+  "resolution_ceiling_min": 0.827,
+  "threshold_sweep_mean": {
+    "0.3": 0.5754,
+    "0.4": 0.58,
+    "0.5": 0.5829,
+    "0.6": 0.5857,
+    "0.7": 0.5884
+  },
+  "missed_patients_dice_lt_0.1": 1,
+  "error_voxel_share": {
+    "fn_vox": 0.555,
+    "fp_margin_slices": 0.159,
+    "fp_tumor_slices_outside_roi": 0.066,
+    "fp_inside_roi": 0.221
+  },
+  "dice_slab_by_size": {
+    "count": {
+      "<1 mL": 15,
+      "1-5 mL": 19,
+      "5-20 mL": 7,
+      ">20 mL": 3
+    },
+    "mean": {
+      "<1 mL": 0.512,
+      "1-5 mL": 0.596,
+      "5-20 mL": 0.788,
+      ">20 mL": 0.378
+    }
+  },
+  "dice_roi_by_size": {
+    "count": {
+      "<1 mL": 15,
+      "1-5 mL": 19,
+      "5-20 mL": 7,
+      ">20 mL": 3
+    },
+    "mean": {
+      "<1 mL": 0.637,
+      "1-5 mL": 0.707,
+      "5-20 mL": 0.859,
+      ">20 mL": 0.386
+    }
+  },
+  "dice_slab_by_vendor": {
+    "GE MEDICAL SYSTEMS": 0.599,
+    "Philips": 0.281,
+    "SIEMENS": 0.621,
+    "TOSHIBA": 0.561
+  }
+}
